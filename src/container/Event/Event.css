@@ -1,0 +1,35 @@
+
+.club__event-container{
+    background: lightpink;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.club__event-content {
+    background: lightgray;
+    
+    width: 75vw;
+    /* height: 150px; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+}
+
+.club__event-upcoming-event{
+    background: red;
+    width: 60%;
+    height: 500px;
+}
+
+.club__event-recent-event{
+    background: lightgreen;
+    width: 35%;
+    height: 600px;
+}
+

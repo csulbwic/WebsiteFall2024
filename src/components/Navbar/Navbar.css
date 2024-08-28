@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+.club__navbar-container{
+    background: var(--color-light-pink);
+    padding-top: 1rem;
+}
+
+.club__navbar{
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+
+    background: var(--color-light-blue);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 1rem 2.5rem;
+    border-radius: 75px;
+
+    width: 80vw;
+    /* margin-top: 1em; */
+    margin-left: auto;
+    margin-right: auto;
+
+    position: sticky;
+    top: 1rem;  /* Makes the navbar stick to the top of the viewport */
+    z-index: 1000;  /* Ensures it stays above other content when scrolling */
+}
+
+.club__navbar-links{
+    flex: 1;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.club__navbar-links li{
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.club__navbar-links li:hover{
+    scale: 1.1;
+}
+
+.club__navbar-join a{
+    margin: 0 1rem;
+    text-decoration: none;
+    /* transition: 0.5s ease; */
+}
+
+.club__navbar-join:hover{
+    scale:1.1;
+}
+.club__navbar-join a:hover{
+    border-bottom:3px solid var(--color-black);
+}
+
+.club__navbar-smallscreen{
+    display: none;
+}
+
+.club__navbar-smallscreen_overlay{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100vh;
+    background-color: pink;
+    flex-direction: column;
+    z-index: 5;
+}
+
+
+
+.club__navbar-smallscreen_overlay .overlay__close{
+    font-size: 27px;
+    color: var(--color-black);
+    cursor: pointer;
+
+    position: absolute; 
+    top: 20px;
+    right: 20px;
+}
+
+.club__navbar-smallscreen_links li{
+    margin: 2rem;
+    cursor: pointer;
+    color: var(--color-black);
+    font-size: 2rem;
+    text-align: center;
+    font-family: var(--font-base);
+    list-style: none;
+}
+
+.club__navbar-smallscreen_links li:hover{
+    color: var(--color-light-pink)
+}
+
+@media screen and (max-width: 2000px){
+    .club__navbar-logo img{
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .club__navbar-links{
+        display: none;
+    }
+
+    .club__navbar-join{
+        display: none;
+    }
+
+    .club__navbar-smallscreen{
+        display: flex;
+    }
+}
+

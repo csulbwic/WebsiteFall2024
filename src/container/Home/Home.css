@@ -1,0 +1,122 @@
+
+.club__home-container{
+    background: var(--color-light-pink);
+    /* background: lightcoral; */
+    gap:2rem;
+}
+
+
+/* .club__home-overlay{
+    background: lightgreen;
+} */
+
+.club__home-content{
+    width: 40vw;
+    /* height: 60vh; */
+    /* background: lightblue; */
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.club__home-content_WIC{
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+    width: 100%;
+    text-align: right;
+}
+
+.club__home-p{
+    text-align: justify ;
+}
+
+.club__home-smallscreen-headline{
+    display: none;
+}
+
+@media screen and (max-width:2560px){
+    .club__home-overlay img{
+        width: 800px;
+    }
+
+    .club__home-content_WIC h1{
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width:1024px ){
+    .club__home-overlay img{
+        width: 450px;
+    }
+
+    .club__home-content_WIC h1{
+        font-size: 50px;
+    }
+
+    .club__home-content_WIC p{
+        text-align: left;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:900px ){
+    .club__home-content{
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        padding: 0.2rem;
+    }
+
+    .club__home-container{
+        /* background: yellow; */
+        flex-direction: column;
+        width: 100%;
+        gap:0.5rem;
+    }
+
+    .club_home-headline{
+        display: none;
+    }
+    
+    .club__home-overlay img{
+        width: 500px;
+    }
+
+    .club__home-smallscreen-headline{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* background: lightgreen; */
+    }
+    .club__home-content_WIC{
+        gap:1rem
+    }
+    
+    .club__home-p{
+        /* background-color: red; */
+        text-align: center;
+    }
+ 
+ }
+
+ @media screen and (max-width:450px){
+    .club__home-overlay img{
+        width: 400px;
+    }
+ }
+
+ @media screen and (max-width:380px){
+    .club__home-overlay img{
+        width: 300px;
+    }
+
+    .club__home-smallscreen-headline h1{
+        font-size: 50px;
+        
+    }
+
+    .club__home-content_WIC p{
+        font-size: 12px;
+    }
+ }

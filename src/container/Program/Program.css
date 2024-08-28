@@ -1,0 +1,16 @@
+
+.club__program-container{
+    background: var(--color-mid-pink);
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.club__program-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+
