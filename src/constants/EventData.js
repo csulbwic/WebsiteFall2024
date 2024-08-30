@@ -21,16 +21,44 @@ const Program_Data =[
 const Current_Event = [
     {
         img:"https://picsum.photos/200/300",
-        alt:"img1"
+        alt:"img1",
+        RSVP_link:"",
     },
     {
         img:"https://picsum.photos/200/300",
-        alt:"img2"
+        alt:"img2",
+        RSVP_link:"",
     },
     {
         img:"https://picsum.photos/200/300",
-        alt:"img3"
+        alt:"img3",
+        RSVP_link:"",
     },
 ]
 
-export default {EventData: Program_Data, Current_Event};
+const Past_Event = [
+    {
+        title:"GBM 1",
+        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        date:"11/23/24",
+        post_link:"http://sample.org/",
+    },
+    
+    {
+        title:"Sisterhood - friendship bracelet",
+        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        date:"11/23/24",
+        post_link:"http://sample.edu/",
+    },
+
+    {
+        title:"Break Through Tech",
+        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        date:"11/23/24",
+        post_link:"http://www.sample.org/head",
+    }
+
+
+]
+
+export default {EventData: Program_Data,Past_Event, Current_Event};

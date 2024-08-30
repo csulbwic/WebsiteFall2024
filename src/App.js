@@ -11,6 +11,7 @@ const App = () => (
     <Home/>
     <Program/>
     <Event/>
+    <Team/>
     {/* <Mission/>
     <Team/>
     <Event/> */}

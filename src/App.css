@@ -55,18 +55,22 @@
 
 /* do this one again */
 .custom__button {
-    background-color: var(--color-crimson);
-    color: var(--color-black);
-    font-family: var(--font-base);
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    line-height: 28px;
-    font-size: 16px;
-    padding: 0.5rem 1.5rem;
-    border-radius: 1px;
-    border: none;
-    outline: none;
-    cursor: pointer;
+  background-color: var(--color-crimson);
+  color: var(--color-black);
+  font-family: var(--font-base);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 20px;
+  padding: 1.0rem 2.5rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.custom__button:hover{
+  scale: 1.1;
 }
 
 .p__inter {
@@ -81,7 +85,7 @@
 }
 
 .p__fira-headline{
-  font-family: var(--font-alt);
+  font-family: var(--font-alt),sans-serif;
   color: var(--color-black);
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -91,7 +95,7 @@
 }
 
 .p__fira {
-  font-family: var(--font-alt);
+  font-family: var(--font-alt),sans-serif;
   color: var(--color-black);
   font-weight: 500;
   letter-spacing: 0.04em;
