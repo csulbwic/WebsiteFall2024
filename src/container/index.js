@@ -1,14 +1,15 @@
 import Home from './Home/Home';
-import Mission from './Mission/Mission';
 import Event from './Event/Event';
 import Team from './Team/Team';
 import Program from './Program/Program';
-
+import Gallery from './Gallery/Gallery';
+import MailList from './MailList/MailList';
 
 export{
     Home, 
-    Mission,
     Event,
     Team,
-    Program
+    Program,
+    Gallery,
+    MailList,
 };

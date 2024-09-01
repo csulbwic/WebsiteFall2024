@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Home, Mission, Team, Event, Program} from './container';
+import {Home, Team, Event, Program, Gallery, MailList} from './container';
 import { Navbar } from './components';
 import './App.css';
 
@@ -12,13 +12,10 @@ const App = () => (
     <Program/>
     <Event/>
     <Team/>
-    {/* <Mission/>
-    <Team/>
-    <Event/> */}
+
+    <Gallery/>
+    {/* <MailList/>     */}
     
-
-   
-
   </div>
 );
 

@@ -1,0 +1,52 @@
+
+.club___gallery-container{
+    flex-direction: column;
+    background-color: var(--color-hot-pink);
+}
+
+.club__gallery-content{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    max-width: 65%;
+    position: relative;
+}
+
+.app__gallery-images_arrows {
+    /* background: red; */
+    display: flex;
+    /* gap:10px; */
+    justify-content: flex-end; /* Center the arrows at the top */
+    width: 100%;
+    margin-bottom: 10px; /* Adds spacing between arrows and the gallery content */
+}
+
+.gallery__arrow-icon{
+    width: 50px;
+    height: 50px;
+    /* background-color: lightsalmon; */
+}
+
+.gallery__arrow-icon:hover{
+    background-color: var(--color-light-pink);
+}
+
+
+.club__gallery-component-container{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+}
+
+.club__gallery-component-container::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 450px) {
+    .club__gallery-content{
+        max-width: 100%;
+    }
+}
