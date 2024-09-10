@@ -11,7 +11,7 @@ import './Program.css';
 
 
 const Program = () =>(
-    <div className='club__program-container flex__center section__padding' id= 'program'>
+    <div className='club__program-container flex__center section__padding box__container' id= 'program'>
         <div className="club__program-headline">
             <SubHeading title="PROGRAM" img={images.folder_icon}/>
         </div>
@@ -22,7 +22,11 @@ const Program = () =>(
                 <ProgramContainer 
                     title={eventData.title} 
                     description={eventData.description} 
-                    poster={eventData.images} />
+                    poster={eventData.images} 
+
+                    // Pass buttons array if present, else pass an empty array
+                    buttons = {eventData.button || []}
+                    />
             ))}
 
         </div>

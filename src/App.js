@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {Home, Team, Event, Program, Gallery, MailList} from './container';
-import { Navbar } from './components';
+import { Navbar, Footer } from './components';
 import './App.css';
 
 const App = () => (
@@ -14,7 +14,8 @@ const App = () => (
     <Team/>
 
     <Gallery/>
-    {/* <MailList/>     */}
+    <MailList/> 
+    <Footer/>   
     
   </div>
 );

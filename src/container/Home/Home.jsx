@@ -5,7 +5,7 @@ import { PiImageSquare } from 'react-icons/pi';
 import { IoImageSharp } from 'react-icons/io5';
 
 const Home = () =>(
-    <div className='club__home-container flex__center section__padding' id="home">
+    <div className='club__home-container flex__center section__padding box__container' id="home">
         <div className="club__home-smallscreen-headline">
             <h1 className='headtext__inter'>WOMEN IN COMPUTING</h1>
         </div>

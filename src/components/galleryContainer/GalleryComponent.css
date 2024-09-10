@@ -7,6 +7,7 @@
     align-items: center;
 
     background-color: var(--color-light-skin);
+    max-height: 550px;
     padding: 25px;
     margin-right: 20px;
     

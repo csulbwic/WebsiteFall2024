@@ -8,7 +8,14 @@ import CitlallyVasquez from "../assets/member-img/CitlallyVasquez.png";
 import AnitaDemirci from "../assets/member-img/AnitaDemirci.jpg";
 import LexiNguyen from "../assets/member-img/LexiNguyen.jpg";
 import MyLu from "../assets/member-img/MyLu.jpeg";
-import FozhanBabaeiyan from  "../assets/member-img/Fozhan_Babaeiyan.JPG"
+import FozhanBabaeiyan from  "../assets/member-img/Fozhan_Babaeiyan.JPG";
+import LizethValdovinos from "../assets/member-img/LizethValdovinos.JPG";
+import ArweTheaSaldana from "../assets/member-img/ArweTheaSaldana.jpeg";
+import MyaBarragan from "../assets/member-img/MyaBarragan.jpeg";
+import JennaKoo from "../assets/member-img/JennaKoo.jpeg";
+import EmmaTu from "../assets/member-img/EmmaTu.jpeg";
+import DakshaArvind from "../assets/member-img/DakshaArvind.jpeg";
+import BellaLopez from "../assets/member-img/IsabelLopez.jpeg"
 
 
 
@@ -59,6 +66,20 @@ const Current_Member = [
 
         specialStyle: true
     },
+
+    {
+        Membername:"Mya Barragan",
+        position:"School Outreach Program",
+        MemberImg:MyaBarragan,
+
+        Linkedin:"",
+        GitHub:"",
+        Email:"",
+
+        specialStyle: true
+    },
+
+
     {
         Membername:"Reyna Aguirre",
         position:"Social Media and Market",
@@ -94,6 +115,53 @@ const Current_Member = [
     },
 
     {
+        Membername:"Daksha Arvind",
+        position:"Event Coordinator",
+        MemberImg:DakshaArvind,
+
+        Linkedin:"https://www.linkedin.com/in/daksha-arvind-4260bb221/",
+        GitHub:"https://github.com/Dakshaarvind",
+        Email:"dakshaarvind612@gmail.com",
+        
+        specialStyle: true
+    },
+
+    {
+        Membername:"Jenna Koo",
+        position:"Marina Hack Director",
+        MemberImg:JennaKoo,
+
+        Linkedin:"https://www.linkedin.com/in/jennakoo",
+        // GitHub:"",
+        Email:"jennak104@gmail.com",
+        
+        specialStyle: false,
+    },
+
+    {
+        Membername:"Emma Tu",
+        position:"AESB Coordinator",
+        MemberImg:EmmaTu,
+
+        // Linkedin:"",
+        // GitHub:"",
+        // Email:"",
+
+        specialStyle: false,
+    },
+
+    {
+        Membername:"Lizeth Valdovinos",
+        position:"Graphic Designer Lead",
+        MemberImg:LizethValdovinos,
+
+        Linkedin:"https://www.linkedin.com/in/lizeth-valdovinos-rodriguez/",
+        GitHub:"https://github.com/Lizeth-V",
+        Email:"Lizeth.valdovinosrodriguez01@student.csulb.edu",
+        specialStyle: false
+    },
+
+    {
         Membername:"Anita Demirci",
         position:"Co-Graphic Designer",
         MemberImg:AnitaDemirci,
@@ -102,6 +170,29 @@ const Current_Member = [
         GitHub:"https://github.com/anitadmrc",
         Email:"anitademirci2002@gmail.com",
         specialStyle: false
+    },
+
+    {
+        Membername:"Arwen Thea, Saldana",
+        position:"Co-Graphic Designer",
+        MemberImg:ArweTheaSaldana,
+
+        // Linkedin:"",
+        // GitHub:"",
+        Email:"arwenthea.saldana01@student.csulb.edu",
+        specialStyle: false
+    },
+
+    {
+        Membername:"Isabel Lopez",
+        position:"Co-Sisterhood Coordinator",
+        MemberImg:BellaLopez,
+
+        Linkedin:"www.linkedin.com/in/isabelblopez",
+        // GitHub:"",
+        Email:"isabel.b.lopez3102@gmail.com",
+
+        specialStyle: false,
     },
 
     {
@@ -129,18 +220,6 @@ const Current_Member = [
     },
 
 ]
-
-// const Current_Member = [
-//     {
-//         Membername:"currentmember1",
-//         major: "curentmajor1",
-//         position:"curentpostiion1",
-
-//         Linkedin:"link1",
-//         GitHub:"github1",
-//         Email:"email1",
-//     }
-// ];
 
 const Past_Member = [
 {

@@ -1,0 +1,35 @@
+
+.club__mailList-container{
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+    background: var(--color-light-blue);
+}
+
+.club__mailist-descriptions{
+    padding: 1em;
+    width: 40vw;
+    /* background: red; */
+    text-align: center;  
+}
+
+
+
+.club__mailList-headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media  screen and (max-width: 768px) {
+    .club__mailist-descriptions{
+        width: 50vw; 
+    }   
+}
+
+@media  screen and (max-width: 425px) {
+    .club__mailist-descriptions{
+        width: 70vw; 
+    } 
+}

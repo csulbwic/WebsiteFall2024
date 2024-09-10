@@ -14,15 +14,15 @@ import EventData from '../../constants/EventData';
 import './Event.css';
 
 const Event = () =>(
-    <div className="club__event-container flex__center section__padding" id="event">
+    <div className="club__event-container flex__center section__padding box__container" id="event">
         <div className="club__event-headline">
             <SubHeading title="UPCOMING EVENT" img={images.folder_icon}/>
         </div>
         
         <div className="club__event-content">
             <div className="club__event-upcoming-event">
-                <img src={images.poster_sample} alt="" />
-                <button className='custom__button upcomingEvent-btn'>RSVP to Learn More</button>
+                <img src={images.current_club_event_img} alt="" />
+                <a href="https://forms.gle/88LbjToAjh1VCRbR7" target='blank'><button className='custom__button upcomingEvent-btn'>RSVP to Learn More</button></a>
             </div>
             <div className="club__event-recent-event">
                 <div className="recent-event-headline">

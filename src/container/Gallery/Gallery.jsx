@@ -26,7 +26,7 @@ const Gallery = () =>{
     
     return (
 
-    <div className="club___gallery-container flex__center section__padding">
+    <div className="club___gallery-container flex__center section__padding box__container" id="gallery">
         <div className="club__grallery-headline">
                 <SubHeading title="Gallery" img={images.folder_icon}/>
         </div>

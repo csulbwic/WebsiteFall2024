@@ -8,7 +8,7 @@ import {MemberData} from '../../constants';
 
 
 const Team = () =>(
-    <div className="club__team-container flex__center section__padding" id="team">
+    <div className="club__team-container flex__center section__padding box__container" id="team">
         <div className="club__team-headline">
             <SubHeading title="Team Members" img={images.folder_icon}/>
         </div>
@@ -33,4 +33,4 @@ const Team = () =>(
 
 
 
-export default Team;
+export default Team; 

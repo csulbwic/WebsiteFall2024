@@ -1,0 +1,80 @@
+
+.club__footer-container{
+    width: 100%;
+
+    background: var(--color-mid-pink);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 1.5em 1em 0 1em;
+}
+
+.club__footer-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 35vw;
+}
+
+
+
+.club__footer-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:1.5em;
+}
+
+.footer__btn-mainweb{
+    background: var(--color-hot-pink);
+    color: black;
+    font-weight: 700;
+    font-family: var(--font-base);
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 20px;
+    padding: 1.0rem 2.5rem;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    transition: transform 0.3s ease-out, 
+    background-color 0.3s ease-out, 
+    color 0.3s ease-out;
+}
+
+.footer__btn-mainweb:hover{
+    transform: scale(1.1);
+    color: black;
+    background-color: #ffb703;
+}
+
+.club__footer-links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px
+}
+
+
+.club__footer-licens{
+    color: black;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 920px) {
+    .club__footer-name h1{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .club__footer-name h1{
+        font-size: 30px;
+    }
+}

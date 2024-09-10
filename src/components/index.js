@@ -5,6 +5,7 @@ import Slider from './slider/Slider';
 import RecentEvent from './recentEventContainer/recentEventComponent'
 import MemberContainer from './memberContainer/MemberContainer';
 import GalleryComponent from './galleryContainer/GalleryComponent';
+import Footer from './footer/Footer';
 
 export{
     Navbar,
@@ -13,5 +14,6 @@ export{
     Slider,
     RecentEvent,
     MemberContainer,
-    GalleryComponent
+    GalleryComponent,
+    Footer
 }

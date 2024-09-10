@@ -4,12 +4,13 @@ import folder_icon from '../assets/Logo-Club-Img/folder_icon.png';
 import sample from '../assets/Logo-Club-Img/sample.jpg';
 import sample2 from '../assets/Logo-Club-Img/sample2.jpg';
 import poster_sample from '../assets/Logo-Club-Img/poster_sample.jpg'
-
+import current_club_event_img from "../assets/Logo-Club-Img/current_club_event.png"
 export default{
     club_logo,
     computer,
     folder_icon,
     sample,
     sample2,
-    poster_sample
+    poster_sample,
+    current_club_event_img
 };
