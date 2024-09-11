@@ -12,7 +12,7 @@ const ProgramContainer = ({title, description, poster, buttons}) =>(
 
             {/* Mapping through the buttons array to render each button */}
             {buttons && buttons.map((button, index) => (
-                <a key={index} href={button.link}>
+                <a key={index} href={button.link} target='blank'>
                     <button className='custom__button'>
                         {button.BtnDescription}
                     </button>

@@ -6,11 +6,11 @@ const Program_Data =[
     {
         title: 'Sisterhood',
         description: 'Sisterhood is the foundation of our organization. The Sisterhood program is designed for WiC members to form companionship and to encourage members to be active. Our Sisterhood provides mentorship through social and professional development events throughout the semester. These events ensure that our members maintain an optimal balance of academic and social life, all while fostering lasting friendships and supportive bonds.1',
-        images : ProgramImages.sample,
+        images : ProgramImages.sisterHood_img_program,
 
         button : [
             {
-                link: "",
+                link: "https://docs.google.com/forms/d/e/1FAIpQLSeQeuBe8K9HyNPC4yItl8JF39poYy9FsoFe6_-vCKXOG6CNgw/viewform",
                 BtnDescription:"apply to SisterHood Program",
             }
         ]
@@ -20,12 +20,12 @@ const Program_Data =[
     {
         title: 'Workshop',
         description: 'Our workshop series are aimed towards providing technical skills and hands-on experience with topics outside of the school curriculum, such as command line mastery, source control collaboration, resume review, and in-demand technologies.',
-        images : ProgramImages.sample,
+        images : ProgramImages.workshop_img_program,
     },
     {
         title: 'Professional Development',
         description: 'Students have opportunities to experience the day-to-day of working engineers and the work culture of their company. This provides a better understanding of their values in a more personal setting. Office Space tours complements classroom education by giving first-hand exposure to companies.',
-        images : ProgramImages.sample,
+        images : ProgramImages.professionalDev_img_program,
 
         // button : [
         //     {
