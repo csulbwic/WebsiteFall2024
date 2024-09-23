@@ -233,4 +233,9 @@ const Past_Member = [
 }
 ]
 
-export default {Current_Member, Past_Member};
+const memberData = {
+    Current_Member, 
+    Past_Member
+}
+
+export default memberData;
