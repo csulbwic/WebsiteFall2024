@@ -29,8 +29,9 @@ const Event = () =>(
                     <h1>recent event</h1>
                 </div>
                 <div className="recent-event-content">
-                        {EventData.Past_Event.slice(0,3).map((Past_Event) =>(
+                        {EventData.Past_Event && EventData.Past_Event.slice(0,3).map((Past_Event, index) =>(
                             <RecentEvent 
+                                key = {index}
                                 post_link = {Past_Event.post_link}
                                 title={Past_Event.title}
                                 desctiption={Past_Event.description} 

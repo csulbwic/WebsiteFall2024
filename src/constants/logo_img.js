@@ -10,7 +10,7 @@ import workshop_img_program from "../assets/Logo-Club-Img/training.png";
 import professionalDev_img_program from "../assets/Logo-Club-Img/academic.png"
 
 
-export default{
+const images = {
     club_logo,
     computer,
     folder_icon,
@@ -22,3 +22,5 @@ export default{
     workshop_img_program,
     professionalDev_img_program
 };
+
+export default images;

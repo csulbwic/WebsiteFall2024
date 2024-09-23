@@ -1,8 +1,8 @@
 import React from 'react';
 import images from "../../constants/logo_img";
 import './Home.css';
-import { PiImageSquare } from 'react-icons/pi';
-import { IoImageSharp } from 'react-icons/io5';
+// import { PiImageSquare } from 'react-icons/pi';
+// import { IoImageSharp } from 'react-icons/io5';
 
 const Home = () =>(
     <div className='club__home-container flex__center section__padding box__container' id="home">

@@ -18,8 +18,9 @@ const Program = () =>(
 
         <div className="club__program-content">
             
-            {EventData.EventData.map((eventData) =>(
+            {EventData.Program_Data && EventData.Program_Data.map((eventData, index) =>(
                 <ProgramContainer 
+                    key={index}
                     title={eventData.title} 
                     description={eventData.description} 
                     poster={eventData.images} 

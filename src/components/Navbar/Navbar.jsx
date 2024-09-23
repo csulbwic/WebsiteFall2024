@@ -1,8 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { IoMenu } from "react-icons/io5";
 import { BiMenuAltRight } from "react-icons/bi";
 import './Navbar.css';
 import images from "../../constants/logo_img"
+ 
 const Navbar = () =>{
     
     const [toggleMenu, setToggleMenu] = React.useState(false);

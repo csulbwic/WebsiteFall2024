@@ -3,7 +3,7 @@ import './GalleryComponent.css';
 
 import { FaArrowRight } from "react-icons/fa";
 
-import images from "../../constants/logo_img"
+// import images from "../../constants/logo_img"
 
 const GalleryComponent = ({eventImg, title, description, linkID, eventDate, eventTerm})=>
     

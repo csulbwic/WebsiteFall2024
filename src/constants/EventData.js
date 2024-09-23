@@ -121,4 +121,6 @@ const Past_Event = [
 
 ]
 
-export default {EventData: Program_Data,Past_Event, Current_Event};
+const eventData = { Program_Data, Past_Event, Current_Event };
+
+export default eventData;

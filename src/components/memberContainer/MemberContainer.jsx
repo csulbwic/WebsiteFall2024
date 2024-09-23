@@ -1,5 +1,5 @@
 import React from 'react';
-import images from "../../constants/logo_img"
+// import images from "../../constants/logo_img"
 import './MemberContainer.css'
 import { VscGithubAlt } from "react-icons/vsc";
 import { SlSocialLinkedin } from "react-icons/sl";
