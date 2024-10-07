@@ -61,6 +61,15 @@ const Current_Event = [
 const Past_Event = [
     
     {
+        title:"GBM#1",
+        description:"First GBM Fall 2024, learn more about the club, officer and the program we offer",
+        semester:"Fall 2024",
+        date:"9/26/2024",
+        EventImg:EventImages.FirstGBM,
+        post_link:"",
+    },
+
+    {
         title:"Marina Hack 3.5",
         description:"Online Hackathon, 24 hours virtual to collaborate and building project",
         semester:"Spring 2024",

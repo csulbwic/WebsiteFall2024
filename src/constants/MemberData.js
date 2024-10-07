@@ -94,7 +94,7 @@ const Current_Member = [
 
     {
         Membername:"Fozhan Babaeiyan",
-        position:"Co-Treasure",
+        position:"Co-Treasurer",
         MemberImg: FozhanBabaeiyan,
 
         Linkedin:"https://linkedin.com/in/fozhan-babaeiyan",
@@ -104,7 +104,7 @@ const Current_Member = [
 
     {
         Membername:"Kelly Pham",
-        position:"Co-Treasure",
+        position:"Co-Treasurer",
         MemberImg:KellyPham,
 
         Linkedin:"https://www.linkedin.com/in/kelly-pham-976338317?trk=contact-info",

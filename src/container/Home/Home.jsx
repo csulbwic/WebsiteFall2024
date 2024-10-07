@@ -17,6 +17,7 @@ const Home = () =>(
         <div className="club__home-content flex__center">
             <div className="club__home-content_WIC">
                 <h1 className='club_home-headline headtext__inter'>WOMEN IN COMPUTING</h1>
+
                 <p className='club__home-p p__fira'>
                     Women in Computing (WiC) at California State University, 
                     Long Beach is a student-run organization dedicated to uplifting 
