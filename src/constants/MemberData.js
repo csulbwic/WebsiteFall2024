@@ -36,7 +36,7 @@ const Current_Member = [
         position:"Vice President",
         MemberImg:CitlallyVasquez,
 
-        Linkedin:"www.linkedin.com/in/citlally-vasquez",
+        Linkedin:"https://www.linkedin.com/in/citlally-vasquez",
         GitHub:"https://github.com/CVasqg",
         Email:"Citlallyvasquezg@gmail.com",
 
@@ -60,7 +60,7 @@ const Current_Member = [
         position:"School Outreach Co-Lead",
         MemberImg:GauravParyani,
 
-        Linkedin:"https://drive.google.com/open?id=1A4KTvNQyUi19koBHRMd5pgq9yI0sMJzn",
+        Linkedin:"",
         GitHub:"https://github.com/gparyani",
         Email:"gaurav.paryani01@student.csulb.edu",
 
