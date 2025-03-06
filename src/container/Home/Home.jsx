@@ -7,7 +7,7 @@ import './Home.css';
 const Home = () =>(
     <div className='club__home-container flex__center section__padding box__container' id="home">
         <div className="club__home-smallscreen-headline">
-            <h1 className='headtext__inter'>WOMEN IN COMPUTING</h1>
+            <h1 className='headtext__inter'>something</h1>
         </div>
         
         <div className="club__home-overlay">
