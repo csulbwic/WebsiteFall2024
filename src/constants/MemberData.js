@@ -208,7 +208,7 @@ const Current_Member = [
     },
 
     {
-        Membername:"My Lu",
+        Membername:"Kinoko",
         position:"Web-Master",
         MemberImg:MyLu,
 
