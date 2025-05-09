@@ -218,7 +218,6 @@ const Current_Member = [
 
         specialStyle: false,
     },
-
 ]
 
 const Past_Member = [
