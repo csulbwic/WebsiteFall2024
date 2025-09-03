@@ -18,7 +18,7 @@ import EmmaTu from "../assets/member-img/EmmaTu.jpeg";*/
 
 /* Current Members */
 import AmandaGantugs from "../assets/member-img/AmandaGantugs.jpeg";
-import AnitaDemirci from "../assets/member-img/AnitaDemirci.JPG";
+import AnitaDemirci from "../assets/member-img/AnitaDemirci.jpg";
 import AnnaGelisanga from "../assets/member-img/AnnaGelisanga.jpg";
 import ChristinaPeralta from "../assets/member-img/ChristinaPeralta.jpg";
 import CitlallyVasquez from "../assets/member-img/CitlallyVasquez.jpg";
