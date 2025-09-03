@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Home, Team, Event, Program, Gallery, MailList} from './container';
+import {Home, Team, Event, Program, Gallery, MailList, Alumni, WoW} from './container';
 import { Navbar, Footer } from './components';
 import './App.css';
 
@@ -9,10 +9,10 @@ const App = () => (
     <Navbar/>
   
     <Home/>
+    <WoW/>
     <Program/>
     <Event/>
     <Team/>
-
     <Gallery/>
     <MailList/> 
     <Footer/>   

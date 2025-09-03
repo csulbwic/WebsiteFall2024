@@ -2,13 +2,13 @@
 .club__footer-container{
     width: 100%;
 
-    background: var(--color-mid-pink);
+    background: var(--color-pink);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
 
-    padding: 1.5em 1em 0 1em;
+    padding: 1.5em 1em 0;
 }
 
 .club__footer-name{
@@ -30,7 +30,7 @@
 }
 
 .footer__btn-mainweb{
-    background: var(--color-hot-pink);
+    background: var(--color-light-pink2);
     color: black;
     font-weight: 700;
     font-family: var(--font-base);
@@ -51,14 +51,24 @@
 .footer__btn-mainweb:hover{
     transform: scale(1.1);
     color: black;
-    background-color: #ffb703;
+    background-color: var(--color-light-magenta);
 }
 
 .club__footer-links{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap:10px
+    gap: 10px;
+}
+
+.club__footer-links a{
+    display: inline-flex;
+    gap: 10px;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.club__footer-links a:hover{
+    color: var(--color-vivid-pink);
 }
 
 

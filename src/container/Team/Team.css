@@ -3,10 +3,10 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-    background-color: var(--color-mid-pink) ;
+    background-color: var(--color-light-magenta) ;
 }
 
-.club__tean-headline{
+.club__team-headline{
     /* background: red; */
 }
 

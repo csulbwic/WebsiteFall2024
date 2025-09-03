@@ -34,7 +34,7 @@ const Event = () =>(
                                 key = {index}
                                 post_link = {Past_Event.post_link}
                                 title={Past_Event.title}
-                                desctiption={Past_Event.description} 
+                                description={Past_Event.description} 
                                 date = {Past_Event.date} />
                         ))};
                 </div>               

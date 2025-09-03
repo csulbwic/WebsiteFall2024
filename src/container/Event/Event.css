@@ -1,6 +1,6 @@
 
 .club__event-container{
-    background: var(--color-light-blue);
+    background: var(--color-pink);
     display: flex;
     flex-direction: column;
 
@@ -57,10 +57,12 @@
     font-weight: 400;
     font-size: 50px;
     text-align: center;
+    color: var(--color-vivid-pink);
+    text-shadow: 4px 4px 8px #ff399963;
 }
 
 .recent-event-content{
-    background: var(--color-hot-pink);
+    background: var(--color-pink);
     display: flex;
     flex-direction: column;
     gap: 5px;

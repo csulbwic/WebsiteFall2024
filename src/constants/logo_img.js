@@ -1,4 +1,6 @@
 import club_logo from '../assets/Logo-Club-Img/WICLOGI-removebg-preview 3.png';
+import club_logo_white from '../assets/Logo-Club-Img/wic-logo-white.png';
+import club_logo_pink from '../assets/Logo-Club-Img/wic-logo-pink.png';
 import computer from '../assets/Logo-Club-Img/yellow-computer.png';
 import folder_icon from '../assets/Logo-Club-Img/folder_icon.png';
 import sample from '../assets/Logo-Club-Img/sample.jpg';
@@ -12,6 +14,8 @@ import professionalDev_img_program from "../assets/Logo-Club-Img/academic.png"
 
 const images = {
     club_logo,
+    club_logo_white,
+    club_logo_pink,
     computer,
     folder_icon,
     sample,

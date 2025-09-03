@@ -17,6 +17,14 @@
   --color-light-skin: #F2EFEA;
   --color-hot-pink: #F8B8AF;
   --color-skin: #F8EDD9;
+
+  /* NEW COLOR PALETTE */
+  --color-pink: #ffd2e6;
+  --color-vivid-pink: #ff3998;
+  --color-light-magenta: #ffebf5;
+  --color-light-magenta2: #ffdef1;
+  --color-light-pink2: #ff9dcc;
+  --color-vivid-crimson: #fd4f88;
 }
 
 * {

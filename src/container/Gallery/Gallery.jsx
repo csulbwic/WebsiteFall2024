@@ -13,7 +13,7 @@ import { GalleryComponent } from "../../components";
 const Gallery = () =>{
     
     const scrollRef = React.useRef(null);
-
+    
     const scroll = (direction) => {
         const { current } = scrollRef;
 

@@ -5,20 +5,21 @@ import EventImages from './EventImg';
 const Program_Data =[
     {
         title: 'Sisterhood',
-        description: 'Sisterhood is the foundation of our organization. The Sisterhood program is designed for WiC members to form companionship and to encourage members to be active. Our Sisterhood provides mentorship through social and professional development events throughout the semester. These events ensure that our members maintain an optimal balance of academic and social life, all while fostering lasting friendships and supportive bonds.1',
+        description: 'Sisterhood is the foundation of our organization. The Sisterhood program is designed for WiC members to form companionship and to encourage members to be active. Our Sisterhood provides mentorship through social and professional development events throughout the semester. These events ensure that our members maintain an optimal balance of academic and social life, all while fostering lasting friendships and supportive bonds.',
         images : ProgramImages.sisterHood_img_program,
 
-        button : [
+        /*button : [
             {
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSeQeuBe8K9HyNPC4yItl8JF39poYy9FsoFe6_-vCKXOG6CNgw/viewform",
-                BtnDescription:"apply to SisterHood Program",
+                BtnDescription:"Apply to the SisterHood Program",
             }
-        ]
+        ]*/
 
         
     },
+
     {
-        title: 'Workshop',
+        title: 'Workshops',
         description: 'Our workshop series are aimed towards providing technical skills and hands-on experience with topics outside of the school curriculum, such as command line mastery, source control collaboration, resume review, and in-demand technologies.',
         images : ProgramImages.workshop_img_program,
     },
@@ -37,7 +38,7 @@ const Program_Data =[
         //         BtnDescription:"Sign Up for MarinaHacks",
         //     }
         // ]
-    }
+    },
 ];
 
 const Current_Event = [
@@ -60,6 +61,15 @@ const Current_Event = [
 
 const Past_Event = [
     
+    {
+        title:"Week of Welcome",
+        description:"Come get to know our officers and learn more about the programs well be offering this Fall!",
+        semester:"Fall 2025",
+        date:"9/03/2025",
+        EventImg:EventImages.WOW25_img,
+        post_link:"https://www.instagram.com/p/DOHHd4SEt2S/?utm_source=ig_web_button_share_sheet",
+    },
+
     {
         title:"GBM#1",
         description:"First GBM Fall 2024, learn more about the club, officer and the program we offer",
@@ -124,10 +134,6 @@ const Past_Event = [
         EventImg:EventImages.AECF_img,
         post_link:"",
     },
-
-
-
-
 ]
 
 const eventData = { Program_Data, Past_Event, Current_Event };

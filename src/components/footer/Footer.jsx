@@ -25,27 +25,27 @@ const Footer = () => (
             <div className="club__footer-links">
 
                 <a href="https://www.instagram.com/csulbwic/" target="_blank" rel="noopener noreferrer">
-                    <FaInstagram color="#000" fontSize={40} cursor={"pointer"}/>
+                    <FaInstagram fontSize={40} cursor={"pointer"}/>
                 </a>
 
 
                 <a href="https://github.com/csulbwic" target="_blank" rel="noopener noreferrer">
-                    <FaGithub color="#000" fontSize={40} cursor={"pointer"}/>
+                    <FaGithub fontSize={40} cursor={"pointer"}/>
                 </a>
                 
                 <a href="https://tr.ee/z9CH-vgQ-G" target="_blank" rel="noopener noreferrer">
-                    <FaDiscord color="#000" fontSize={40} cursor={"pointer"}/>
+                    <FaDiscord fontSize={40} cursor={"pointer"}/>
                 </a>
                 
                 <a href="https://tr.ee/4pFo4eulC7" target="_blank" rel="noopener noreferrer">
-                    <FaLinkedinIn color="#000" fontSize={40} cursor={"pointer"}/>
+                    <FaLinkedinIn fontSize={40} cursor={"pointer"}/>
                 </a>
                
             </div>
         </div>
 
         <div className="club__footer-licens flex__center p__fira">
-            <p>© Women in Computing 2024 Designed and Developed by <a href="https://www.linkedin.com/in/my-lu/" cursor={"pointer"}><span>My Lu</span></a></p>
+            <p>© Women in Computing 2024 Designed by <a href="https://www.linkedin.com/in/annagelisanga/" cursor={"pointer"}><span>Anna Gelisanga</span></a> and Developed by <a href="https://www.linkedin.com/in/my-lu/" cursor={"pointer"}><span>My Lu</span></a></p>
         </div>
 
         

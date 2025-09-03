@@ -1,6 +1,6 @@
 
 .club__home-container{
-    background: var(--color-light-pink);
+    background: var(--color-pink);
     /* background: lightcoral; */
     gap:2rem;
 }
@@ -27,7 +27,7 @@
 }
 
 .club__home-p{
-    text-align: justify ;
+    text-align: start;
 }
 
 .club__home-smallscreen-headline{
@@ -41,6 +41,20 @@
 
     .club__home-content_WIC h1{
         font-size: 100px;
+        color: var(--color-vivid-pink);
+        text-shadow: 8px 8px 7px #ff399963;
+    }
+}
+
+@media screen and (max-width:1150px){
+    .club__home-overlay img{
+        width: 800px;
+    }
+
+    .club__home-content_WIC h1{
+        font-size: 100px;
+        color: var(--color-vivid-pink);
+        text-shadow: 8px 8px 7px #ff399963;
     }
 }
 
@@ -51,6 +65,8 @@
 
     .club__home-content_WIC h1{
         font-size: 50px;
+        color: var(--color-vivid-pink);
+        text-shadow: 8px 8px 7px #ff399963;
     }
 
     .club__home-content_WIC p{
@@ -88,6 +104,8 @@
         align-items: center;
         text-align: center;
         /* background: lightgreen; */
+        color: var(--color-vivid-pink);
+        text-shadow: 8px 8px 7px #ff399963;   
     }
     .club__home-content_WIC{
         gap:1rem
@@ -104,6 +122,12 @@
     .club__home-overlay img{
         width: 400px;
     }
+
+    .club__home-smallscreen-headline h1{
+        font-size: 50px;
+        color: var(--color-vivid-pink);
+        text-shadow: 8px 8px 7px #ff399963;        
+    }
  }
 
  @media screen and (max-width:380px){
@@ -113,7 +137,8 @@
 
     .club__home-smallscreen-headline h1{
         font-size: 50px;
-        
+        color: var(--color-vivid-pink);
+        text-shadow: 8px 8px 7px #ff399963;        
     }
 
     .club__home-content_WIC p{

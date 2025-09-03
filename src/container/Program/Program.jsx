@@ -13,7 +13,7 @@ import './Program.css';
 const Program = () =>(
     <div className='club__program-container flex__center section__padding box__container' id= 'program'>
         <div className="club__program-headline">
-            <SubHeading title="PROGRAM" img={images.folder_icon}/>
+            <SubHeading title="PROGRAMS" img={images.folder_icon}/>
         </div>
 
         <div className="club__program-content">

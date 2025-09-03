@@ -1,0 +1,140 @@
+
+.club__wow-container{
+    background: var(--color-pink);
+    /* background: lightcoral; */
+    gap:2rem;
+}
+
+
+.club__wow-overlay{
+    scale: 0.8;
+}
+
+.club__wow-content{
+    width: 40vw;
+    /* height: 60vh; */
+    /* background: lightblue; */
+    flex-direction: column;
+    padding: 2rem;
+    color: var(--color-vivid-pink);
+    text-shadow: 8px 8px 7px #ff399963;
+}
+
+.club__wow-content_WIC{
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+    width: 100%;
+    text-align: left;
+}
+
+.club__wow-p{
+    text-align: start;
+    font-family: var(--font-alt),sans-serif;
+    color: var(--color-black);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: none;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.club__wow-smallscreen-headline{
+    display: none;
+}
+
+@media screen and (max-width:2560px){
+    .club__wow-overlay img{
+        width: 800px;
+        
+    }
+
+    .club__wow-content_WIC h1{
+        font-size: 80px;
+        color: var(--color-vivid-pink);
+        text-shadow: 8px 8px 7px #ff399963;
+    }
+}
+
+@media screen and (max-width:1024px ){
+    .club__wow-overlay img{
+        width: 450px;
+        
+    }
+
+    .club__wow-content_WIC h1{
+        font-size: 50px;
+        color: var(--color-vivid-pink);
+        text-shadow: 8px 8px 7px #ff399963;
+    }
+
+    .club__wow-content_WIC p{
+        text-align: left;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:900px ){
+    .club__wow-content{
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        padding: 0.2rem;
+    }
+
+    .club__wow-container{
+        /* background: yellow; */
+        flex-direction: column;
+        width: 100%;
+        gap:0.5rem;
+    }
+
+    .club_wow-headline{
+        display: none;
+    }
+    
+    .club__wow-overlay img{
+        width: 500px;
+    }
+
+    .club__wow-smallscreen-headline{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* background: lightgreen; */
+        color: var(--color-vivid-pink);
+        text-shadow: 8px 8px 7px #ff399963;   
+    }
+    .club__wow-content_WIC{
+        gap:1rem
+    }
+    
+    .club__wow-p{
+        /* background-color: red; */
+        text-align: center;
+    }
+ 
+ }
+
+ @media screen and (max-width:450px){
+    .club__wow-overlay img{
+        width: 400px;
+    }
+ }
+
+ @media screen and (max-width:380px){
+    .club__wow-overlay img{
+        width: 300px;
+    }
+
+    .club__wow-smallscreen-headline h1{
+        font-size: 50px;
+        color: var(--color-vivid-pink);
+        text-shadow: 8px 8px 7px #ff399963;        
+    }
+
+    .club__wow-content_WIC p{
+        font-size: 12px;
+    }
+ }

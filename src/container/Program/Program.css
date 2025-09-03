@@ -1,6 +1,6 @@
 
 .club__program-container{
-    background: var(--color-mid-pink);
+    background: var(--color-light-magenta);
     display: flex;
     flex-direction: column;
     gap: 45px;

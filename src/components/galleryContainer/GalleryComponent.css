@@ -6,7 +6,8 @@
     justify-content: center;
     align-items: center;
 
-    background-color: var(--color-light-skin);
+    background-color: var(--color-light-pink);
+    box-shadow: 5px 5px 10px var(--color-vivid-pink);
     max-height: 550px;
     padding: 25px;
     margin-right: 20px;
