@@ -1,8 +1,5 @@
 import React from "react";
 import './WoW.css';
-
-import { SubHeading } from "../../components";
-import images from "../../constants/logo_img";
 import EventImages from '../../constants/EventImg';
 
 const WoW = () => {

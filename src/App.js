@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Home, Team, Event, Program, Gallery, MailList, Alumni, WoW} from './container';
+import {Home, Team, Event, Program, Gallery, MailList, WoW} from './container';
 import { Navbar, Footer } from './components';
 import './App.css';
 

@@ -3,7 +3,7 @@ import './recentEventComponent.css'
 const RecentEvent = ({title, date, description, post_link}) => (
   
   <div className="recentEvent__component">
-    {<a href={post_link}></a>}
+    {/*<a href={post_link}></a>*/}
     <div className="recentEvent-headline">
         
         <p className="title p__fira">{title}</p>
