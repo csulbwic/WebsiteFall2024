@@ -24,7 +24,7 @@ import ChristinaPeralta from "../assets/member-img/ChristinaPeralta.jpg";
 import CitlallyVasquez from "../assets/member-img/CitlallyVasquez.jpg";
 import DakshaArvind from "../assets/member-img/DakshaArvind.png";
 import BellaLopez from "../assets/member-img/IsabelLopez.jpeg";
-import JulieTruong from "../assets/member-img/JulieTruong.jpg";
+import JulieTruong from "../assets/member-img/JulieTruong.JPG";
 import KellyPham from "../assets/member-img/KellyPham.jpeg"; 
 import LexiNguyen from "../assets/member-img/LexiNguyen.jpeg";
 import LillyNguyen from "../assets/member-img/LillyNguyen.JPG";
