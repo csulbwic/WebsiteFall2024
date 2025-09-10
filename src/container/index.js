@@ -4,11 +4,10 @@ import Team from './Team/Team';
 import Program from './Program/Program';
 import Gallery from './Gallery/Gallery';
 import MailList from './MailList/MailList';
-import WoW from './WoW/WoW';
+//import WoW from './WoW/WoW';
 
 export{
-    Home, 
-    WoW,
+    Home,
     Event,
     Team,
     Program,

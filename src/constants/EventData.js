@@ -14,8 +14,6 @@ const Program_Data =[
                 BtnDescription:"Apply to the SisterHood Program",
             }
         ]*/
-
-        
     },
 
     {
@@ -23,12 +21,25 @@ const Program_Data =[
         description: 'Our workshop series are aimed towards providing technical skills and hands-on experience with topics outside of the school curriculum, such as command line mastery, source control collaboration, resume review, and in-demand technologies.',
         images : ProgramImages.workshop_img_program,
     },
+
+    /*{
+        title: 'School Outreach Program',
+        description: 'Our workshop series are aimed towards providing technical skills and hands-on experience with topics outside of the school curriculum, such as command line mastery, source control collaboration, resume review, and in-demand technologies.',
+        images : ProgramImages.workshop_img_program,
+    },*/
+
+    /*{
+        title: 'MarinaHacks',
+        description: 'Our workshop series are aimed towards providing technical skills and hands-on experience with topics outside of the school curriculum, such as command line mastery, source control collaboration, resume review, and in-demand technologies.',
+        images : ProgramImages.workshop_img_program,
+    },*/
+    
     {
         title: 'Professional Development',
         description: 'Students have opportunities to experience the day-to-day of working engineers and the work culture of their company. This provides a better understanding of their values in a more personal setting. Office Space tours complements classroom education by giving first-hand exposure to companies.',
         images : ProgramImages.professionalDev_img_program,
 
-        // button : [
+        /* button : [
         //     {
         //         link: "",
         //         BtnDescription:"apply to Intership",
@@ -37,7 +48,7 @@ const Program_Data =[
         //         link: "",
         //         BtnDescription:"Sign Up for MarinaHacks",
         //     }
-        // ]
+        // ] */
     },
 ];
 

@@ -270,7 +270,7 @@ const Current_Member = [
         position:"AESB Representative",
         MemberImg:ChristinaPeralta,
 
-        Linkedin:"www.linkedin.com/in/christina-peralta2005",
+        Linkedin:"https://www.linkedin.com/in/christina-peralta2005/",
         GitHub:"",
         Email:"",
 

@@ -21,7 +21,7 @@ const Navbar = () =>{
             <ul className='club__navbar-links'>
                 <li><a href="#home">Home</a></li>
                 {/* <li><a href="#mission">mission</a></li> */}
-                <li><a href="#wow">WoW</a></li>
+                {/*<li><a href="#wow">WoW</a></li>*/}
                 <li><a href="#program">Programs</a></li>
                 <li><a href="#event">Events</a></li>
                 <li><a href="#team">Team</a></li>
@@ -49,7 +49,7 @@ const Navbar = () =>{
                         */}
 
                         <ul className='club__navbar-smallscreen_links'>
-                            {['home','wow','program','event','team','gallery'].map((link) => (
+                            {['home','program','event','team','gallery'].map((link) => (
                                 <li key={link}>
                                 <a href={`#${link}`} onClick={() => setToggleMenu(false)}>
                                     {link}
