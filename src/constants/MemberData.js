@@ -41,7 +41,7 @@ import EstefaniaArandaPena from "../assets/member-img/EstefaniaArandaPena.jpeg";
 import GemmaTruong from "../assets/member-img/GemmaTruong.jpeg";
 import IshaMehta from "../assets/member-img/IshaMehta.png";
 import LexiNguyen from "../assets/member-img/LexiNguyen.jpeg";
-import MiaCarter from "../assets/member-img/MiaCarter.JPG";
+import MiaCarter from "../assets/member-img/MiaCarter.jpg";
 import MishkaKhalilMansukhani from "../assets/member-img/MishkaKhalilMansukhani.jpeg";
 import NoorKasem from "../assets/member-img/NoorKasem.jpg";
 import RikhiJoseph from "../assets/member-img/RikhiJoseph.jpeg";
