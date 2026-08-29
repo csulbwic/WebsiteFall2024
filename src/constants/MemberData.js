@@ -14,85 +14,60 @@ import FozhanBabaeiyan from  "../assets/member-img/Fozhan_Babaeiyan.JPG";
 import LizethValdovinos from "../assets/member-img/LizethValdovinos.JPG";
 import ArweTheaSaldana from "../assets/member-img/ArweTheaSaldana.jpeg";
 import JennaKoo from "../assets/member-img/JennaKoo.jpeg";
-import EmmaTu from "../assets/member-img/EmmaTu.jpeg";*/
-
-/* Current Members */
-import AmandaGantugs from "../assets/member-img/AmandaGantugs.jpeg";
+import EmmaTu from "../assets/member-img/EmmaTu.jpeg";
 import AnitaDemirci from "../assets/member-img/AnitaDemirci.jpg";
-import AnnaGelisanga from "../assets/member-img/AnnaGelisanga.jpg";
-import ChristinaPeralta from "../assets/member-img/ChristinaPeralta.jpg";
 import CitlallyVasquez from "../assets/member-img/CitlallyVasquez.jpg";
 import DakshaArvind from "../assets/member-img/DakshaArvind.png";
 import BellaLopez from "../assets/member-img/IsabelLopez.jpeg";
 import JulieTruong from "../assets/member-img/JulieTruong.JPG";
 import KellyPham from "../assets/member-img/KellyPham.jpeg"; 
-import LexiNguyen from "../assets/member-img/LexiNguyen.jpeg";
 import LillyNguyen from "../assets/member-img/LillyNguyen.JPG";
-import MiaCarter from "../assets/member-img/MiaCarter.jpg";
 import MyaBarragan from "../assets/member-img/MyaBarragan.JPG";
 import PeterTran from "../assets/member-img/PeterTran.jpg";
 import ShishiraShashidhar from "../assets/member-img/ShishiraShashidhar.png";
 import StacyMazariego from "../assets/member-img/StacyMazariego.jpeg";
-import TessaHolder from "../assets/member-img/TessaHolder.jpeg";
 import ThrityGolzari from "../assets/member-img/ThrityGolzari.jpg";
-import WarissaHossain from "../assets/member-img/WarissaHossain.jpeg";
 import ZaryaAmin from "../assets/member-img/ZaryaAmin.jpeg";
+*/
 
+/* Current Members */
+import AmandaGantugs from "../assets/member-img/AmandaGantugs.jpeg";
+import AnnaGelisanga from "../assets/member-img/AnnaGelisanga.jpeg";
+import AnviPande from "../assets/member-img/AnviPande.jpeg";
+import CallissaUccello from "../assets/member-img/CallissaUccello.png";
+import ChristinaPeralta from "../assets/member-img/ChristinaPeralta.jpeg";
+import DiannaMendoza from "../assets/member-img/DiannaMendoza.jpeg";
+import EstefaniaArandaPena from "../assets/member-img/EstefaniaArandaPena.jpeg";
+import GemmaTruong from "../assets/member-img/GemmaTruong.jpeg";
+import IshaMehta from "../assets/member-img/IshaMehta.png";
+import LexiNguyen from "../assets/member-img/LexiNguyen.jpeg";
+import MiaCarter from "../assets/member-img/MiaCarter.jpg";
+import MishkaKhalilMansukhani from "../assets/member-img/MishkaKhalilMansukhani.jpeg";
+import NoorKasem from "../assets/member-img/NoorKasem.jpg";
+import RikhiJoseph from "../assets/member-img/RikhiJoseph.jpeg";
+import RochelleSuarez from "../assets/member-img/RochelleSuarez.jpeg";
+import SofiaHaroOrtiz from "../assets/member-img/SofiaHaroOrtiz.jpeg";
+import TessaHolder from "../assets/member-img/TessaHolder.jpeg";
+import WarissaHossain from "../assets/member-img/WarissaHossain.jpeg";
 
 const Current_Member = [
     {
-        Membername:"Daksha Arvind",
+        Membername:"Tessa Holder",
         position:"President",
-        MemberImg :DakshaArvind,
+        MemberImg :TessaHolder,
         
-        Linkedin:"https://www.linkedin.com/in/daksha-arvind-4260bb221/",
-        GitHub:"https://github.com/Dakshaarvind",
-        Email:"dakshaarvind612@gmail.com",
-
-        specialStyle: false
-    },
-    {
-        Membername:"Citlally Vasquez-Gonzalez",
-        position:"Co-Vice President",
-        MemberImg:CitlallyVasquez,
-
-        Linkedin:"https://www.linkedin.com/in/citlally-vasquez",
-        GitHub:"https://github.com/CVasqg",
-        Email:"Citlallyvasquezg@gmail.com",
-
-        specialStyle: false
-    },
-
-    {
-        Membername:"Mya Barragan",
-        position:"Co-Vice President",
-        MemberImg:MyaBarragan,
-
-        Linkedin:"https://www.linkedin.com/in/myaabarragan/",
+        Linkedin:"https://www.linkedin.com/in/tessa-holder",
         GitHub:"",
         Email:"",
 
-        specialStyle: true
-    },
-
-    {
-        Membername:"Julie Truong",
-        position:"Secretary",
-        MemberImg:JulieTruong,
-
-        Linkedin:"https://www.linkedin.com/in/msjulietruong",
-        GitHub:"https://github.com/msjulietruong",
-        Email:"msjulietruong@gmail.com",
-
         specialStyle: false
     },
-
     {
-        Membername:"Lilly Nguyen",
-        position:"Secretary",
-        MemberImg:LillyNguyen,
+        Membername:"Christina Peralta",
+        position:"Vice President",
+        MemberImg:ChristinaPeralta,
 
-        Linkedin:"www.linkedin.com/in/lilly-nguyen-cs",
+        Linkedin:"http://linkedin.com/in/christina-peralta2005/",
         GitHub:"",
         Email:"",
 
@@ -100,11 +75,23 @@ const Current_Member = [
     },
 
     {
-        Membername:"Zarya Amin",
+        Membername:"Anvi Pande",
+        position:"Secretary",
+        MemberImg:AnviPande,
+
+        Linkedin:"https://www.linkedin.com/in/anvi-pande-223306324/",
+        GitHub:"",
+        Email:"",
+
+        specialStyle: false
+    },
+
+    {
+        Membername:"Isha Mehta",
         position:"Treasurer",
-        MemberImg:ZaryaAmin,
+        MemberImg:IshaMehta,
 
-        Linkedin:"https://www.linkedin.com/in/zarya-amin-37a28333b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        Linkedin:"https://www.linkedin.com/in/isha-mehta-9b50b3276?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
         GitHub:"",
         Email:"",
 
@@ -112,26 +99,14 @@ const Current_Member = [
     },
 
     {
-        Membername:"Kelly Pham",
-        position:"Co-Treasurer",
-        MemberImg:KellyPham,
-
-        Linkedin:"https://www.linkedin.com/in/kelly-pham-976338317?trk=contact-info",
-        // GitHub:"",
-        Email:"Kelly.Pham01@student.csulb.edu",
-        
-        specialStyle: true
-    },
-
-    {
-        Membername:"Peter Tran",
+        Membername:"Mia Carter",
         position:"Co-School Outreach Coordinator",
-        MemberImg:PeterTran,
+        MemberImg:MiaCarter,
 
-        Linkedin:"www.linkedin.com/in/petertran0106",
+        Linkedin:"https://www.linkedin.com/in/mialcarter",
         GitHub:"",
         Email:"",
-
+        
         specialStyle: true
     },
 
@@ -148,49 +123,38 @@ const Current_Member = [
     },
 
     {
-        Membername:"Mia Carter",
+        Membername:"Callissa Uccello",
         position:"Co-School Outreach Coordinator",
-        MemberImg:MiaCarter,
+        MemberImg:CallissaUccello,
 
-        Linkedin:"www.linkedin.com/in/mialcarter",
+        Linkedin:"https://www.linkedin.com/in/callissa-uccello-3479923a9",
         GitHub:"",
         Email:"",
-        
+
         specialStyle: true
     },
 
     {
-        Membername:"Thrity Golzari",
-        position:"Social Media Chair",
-        MemberImg:ThrityGolzari,
+        Membername:"Estefania Aranda-Pena",
+        position:"Co-School Outreach Coordinator",
+        MemberImg:EstefaniaArandaPena,
 
-        Linkedin:"www.linkedin.com/in/thrity-golzari",
+        Linkedin:"https://www.linkedin.com/in/estefania-aranda-pena-450529256",
         GitHub:"",
         Email:"",
 
-        specialStyle: false
+        specialStyle: true
     },
 
     {
-        Membername:"Tessa Holder",
-        position:"Co-Social Media Coordinator",
-        MemberImg:TessaHolder,
+        Membername:"Sofia Haro-Ortz",
+        position:"Publicity Chair",
+        MemberImg:SofiaHaroOrtiz,
 
-        Linkedin:"https://www.linkedin.com/in/tessa-holder-6b3b12320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        Linkedin:"https://www.linkedin.com/in/sofia-haro-ortiz-458ab8285",
         GitHub:"",
         Email:"",
 
-        specialStyle: false
-    },
-
-    {
-        Membername:"Anita Demirci",
-        position:"Graphic Design Coordinator",
-        MemberImg:AnitaDemirci,
-
-        Linkedin:"https://www.linkedin.com/in/anita-demirci-6399162a9/",
-        GitHub:"https://github.com/anitadmrc",
-        Email:"anitademirci2002@gmail.com",
         specialStyle: false
     },
 
@@ -199,7 +163,7 @@ const Current_Member = [
         position:"Graphic Designer",
         MemberImg:WarissaHossain,
 
-        Linkedin:"https://www.linkedin.com/in/warissa-hossain-0b4384330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        Linkedin:"https://www.linkedin.com/in/warissa-hossain-0b4384330?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
         GitHub:"",
         Email:"",
         specialStyle: false
@@ -211,18 +175,42 @@ const Current_Member = [
         MemberImg:AnnaGelisanga,
 
         Linkedin:"https://www.linkedin.com/in/annagelisanga/",
-        GitHub:"https://github.com/shiyuriaki",
-        Email:"annaleah.gelisanga01@student.csulb.edu",
+        GitHub:"",
+        Email:"",
 
         specialStyle: false,
     },
 
     {
-        Membername:"Belle Lopez",
-        position:"Co-Sisterhood Coordinator",
-        MemberImg:BellaLopez,
+        Membername:"Gemma Truong",
+        position:"Webmaster",
+        MemberImg:GemmaTruong,
 
-        Linkedin:"https://www.linkedin.com/in/isabelblopez",
+        Linkedin:"https://www.linkedin.com/in/gemmatruong?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+        GitHub:"",
+        Email:"",
+
+        specialStyle: false,
+    },
+
+    {
+        Membername:"Mishka Khalil Mansukhani",
+        position:"Webmaster",
+        MemberImg:MishkaKhalilMansukhani,
+
+        Linkedin:"https://www.linkedin.com/in/mishka-k-mansukhani-5407402ab",
+        GitHub:"",
+        Email:"",
+
+        specialStyle: false,
+    },
+
+    {
+        Membername:"Dianna Mendoza",
+        position:"Co-Sisterhood Coordinator",
+        MemberImg:DiannaMendoza,
+
+        Linkedin:"https://www.linkedin.com/in/dianna-mendoza-821a0a319",
         GitHub:"",
         Email:"",
 
@@ -234,19 +222,19 @@ const Current_Member = [
         position:"Co-Sisterhood Coordinator ",
         MemberImg:LexiNguyen,
 
-        Linkedin:"https://www.linkedin.com/in/lexi-nguyen-823491296/",
+        Linkedin:"https://www.linkedin.com/in/lexi-nguyen-823491296?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
         GitHub:"",
-        Email:"lexi.nguyen01@student.csulb.edu",
+        Email:"",
 
         specialStyle: false,
     },
 
     {
-        Membername:"Stacy Mazariego",
+        Membername:"Rochelle Suarez",
         position:"Event Coordinator ",
-        MemberImg:StacyMazariego,
+        MemberImg:RochelleSuarez,
 
-        Linkedin:"https://www.linkedin.com/in/stacy-mazariego?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        Linkedin:"https://www.linkedin.com/in/rochelle-suarez-4b0883289/?isSelfProfile=false",
         GitHub:"",
         Email:"",
 
@@ -254,23 +242,23 @@ const Current_Member = [
     },
 
     {
-        Membername:"Shishira Shashidhar",
-        position:"Industry Chair",
-        MemberImg:ShishiraShashidhar,
-
-        Linkedin:"https://www.linkedin.com/in/shishira-shashidhar-b634311b1/",
-        GitHub:"",
-        Email:"",
-
-        specialStyle: false,
-    },
-
-    {
-        Membername:"Christina Peralta",
+        Membername:"Noor Kasem",
         position:"AESB Representative",
-        MemberImg:ChristinaPeralta,
+        MemberImg:NoorKasem,
 
-        Linkedin:"https://www.linkedin.com/in/christina-peralta2005/",
+        Linkedin:"https://www.linkedin.com/in/noorkasem/?isSelfProfile=false",
+        GitHub:"",
+        Email:"",
+
+        specialStyle: false,
+    },
+
+    {
+        Membername:"Rikhi Joseph",
+        position:"AESB Representative",
+        MemberImg:RikhiJoseph,
+
+        Linkedin:"https://www.linkedin.com/in/rikhi-joseph",
         GitHub:"",
         Email:"",
 
