@@ -3,7 +3,7 @@ import Event from './Event/Event';
 import Team from './Team/Team';
 import Program from './Program/Program';
 import Gallery from './Gallery/Gallery';
-import MailList from './MailList/MailList';
+import Membership from './Membership/Membership';
 //import WoW from './WoW/WoW';
 
 export{
@@ -12,5 +12,5 @@ export{
     Team,
     Program,
     Gallery,
-    MailList,
+    Membership,
 };

@@ -49,10 +49,10 @@ const Navbar = () =>{
                         */}
 
                         <ul className='club__navbar-smallscreen_links'>
-                            {['home','program','event','team','gallery'].map((link) => (
+                            {['home','program','event','team','gallery','join'].map((link) => (
                                 <li key={link}>
                                 <a href={`#${link}`} onClick={() => setToggleMenu(false)}>
-                                    {link}
+                                    {link === 'join' ? 'join us' : link}
                                 </a>
                                 </li>
                             ))}
