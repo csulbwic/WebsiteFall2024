@@ -12,7 +12,13 @@ import FirstGBM from "../assets/Event-Img/FirstGBM.jpg";
 
 // FALL 2024 EVENT IMAGES
 
+// FALL 2025 EVENT IMAGES
+import SchoolOutreach2025_img from "../assets/Event-Img/SchoolOutreach_2025.jpg";
+import MarinaHacks5_img from "../assets/Event-Img/MarinaHacks_5.0.jpg";
+import SisterhoodFall2025_img from "../assets/Event-Img/SisterhoodFall_2025.webp";
+
 // SPRING 2025 EVENT IMAGES
+
 
 // *CURRENT* FALL 2025 EVENT IMAGES
 import WOW25_img from "../assets/Event-Img/wow_2025.png";
@@ -27,6 +33,9 @@ const eventImg = {
     WOW_img,
     FirstGBM,
     WOW25_img,
+    SchoolOutreach2025_img,
+    MarinaHacks5_img,
+    SisterhoodFall2025_img,
 }
 
 export default eventImg;

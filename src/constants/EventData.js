@@ -71,7 +71,36 @@ const Current_Event = [
 ]
 
 const Past_Event = [
-    
+
+    // 2025-2026 Events starting from most recent to least recent
+
+{
+    title:"Sisterhood Program",
+    description:"A semester-long program where WIC members collaborate in teams to innovate, develop apps, and build software projects together",
+    semester:"Fall 2025 & Spring 2026",
+    date:"2025-2026",
+    EventImg:EventImages.SisterhoodFall2025_img,
+    post_link:"",
+},
+
+{
+    title:"WiC School Outreach",
+    description:"Become a mentor in this semester-long program to help inspire and motivate young students to pursue STEM fields",
+    semester:"Fall 2025 & Spring 2026",
+    date:"2025-2026",
+    EventImg:EventImages.SchoolOutreach2025_img,
+    post_link:"",
+},
+
+{
+    title:"Marina Hacks 5.0",
+    description:"A 24-hour hackathon event to collaborate, build innovative projects, and learn from industry professionals",
+    semester:"Fall 2025",
+    date:"9/25/2025",
+    EventImg:EventImages.MarinaHacks5_img,
+    post_link:"",
+},
+
     {
         title:"Week of Welcome",
         description:"Come get to know our officers and learn more about the programs well be offering this Fall!",
@@ -80,6 +109,8 @@ const Past_Event = [
         EventImg:EventImages.WOW25_img,
         post_link:"https://www.instagram.com/p/DOHHd4SEt2S/?utm_source=ig_web_button_share_sheet",
     },
+
+    // End of 2025-2026 Event List
 
     {
         title:"GBM#1",
