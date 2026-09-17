@@ -1,4 +1,3 @@
-
 .club__home-container{
     background: var(--color-pink);
     /* background: lightcoral; */
@@ -11,7 +10,7 @@
 } */
 
 .club__home-content{
-    width: 40vw;
+    width: 50vw;
     /* height: 60vh; */
     /* background: lightblue; */
     flex-direction: column;
@@ -43,6 +42,7 @@
         font-size: 100px;
         color: var(--color-vivid-pink);
         text-shadow: 8px 8px 7px #ff399963;
+        overflow-wrap: break-word;
     }
 }
 
@@ -55,6 +55,8 @@
         font-size: 100px;
         color: var(--color-vivid-pink);
         text-shadow: 8px 8px 7px #ff399963;
+        overflow-wrap: break-word;
+        
     }
 }
 

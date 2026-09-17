@@ -76,29 +76,29 @@ const Past_Event = [
 
 {
     title:"Sisterhood Program",
-    description:"A semester-long program where WIC members collaborate in teams to innovate, develop apps, and build software projects together",
+    description:"WIC Sisterhood teams showcased their Spring 2026 projects, including PufferPhish, a Chrome extension that detects phishing emails, and a machine learning model that predicts student dropout risk.",
     semester:"Fall 2025 & Spring 2026",
     date:"2025-2026",
-    EventImg:EventImages.SisterhoodFall2025_img,
-    post_link:"",
+    EventImg:EventImages.SisterhoodSpring2026_img,
+    post_link:"https://www.instagram.com/p/DYlTrwFj-Oy/?img_index=1",
 },
 
 {
     title:"WiC School Outreach",
-    description:"Become a mentor in this semester-long program to help inspire and motivate young students to pursue STEM fields",
+    description:"WIC members visited K-12 schools to bring robotics and hands-on STEM activities to young students, providing early exposure to technology and inspiring them to explore careers in STEM.",
     semester:"Fall 2025 & Spring 2026",
     date:"2025-2026",
     EventImg:EventImages.SchoolOutreach2025_img,
-    post_link:"",
+    post_link:"https://www.instagram.com/p/DRaptfDEhNw/?img_index=1",
 },
 
 {
     title:"Marina Hacks 5.0",
-    description:"A 24-hour hackathon event to collaborate, build innovative projects, and learn from industry professionals",
+    description:"A 24-hour hackathon with over 70 participants who collaborated to build innovative projects, featuring mentors and judges from AWS, Google, and CSULB CECS faculty.",
     semester:"Fall 2025",
     date:"9/25/2025",
     EventImg:EventImages.MarinaHacks5_img,
-    post_link:"",
+    post_link:"https://www.instagram.com/p/DQhqOanEk3h/?img_index=1",
 },
 
     {
@@ -114,20 +114,20 @@ const Past_Event = [
 
     {
         title:"GBM#1",
-        description:"First GBM Fall 2024, learn more about the club, officer and the program we offer",
+        description:"First GBM Fall 2024, learn more about the club, officers, and the program we offer",
         semester:"Fall 2024",
         date:"9/26/2024",
         EventImg:EventImages.FirstGBM,
-        post_link:"",
+        post_link:"https://www.instagram.com/p/DAmQLP5yP5H/",
     },
 
     {
-        title:"Marina Hack 3.5",
+        title:"Marina Hacks 3.5",
         description:"Online Hackathon, 24 hours virtual to collaborate and building project",
         semester:"Spring 2024",
         date:"4/13-14/2024",
         EventImg:EventImages.MarinaHack35_img,
-        post_link:"",
+        post_link:"https://www.instagram.com/p/C6FHbm-Sis0/?img_index=1",
     },
 
     
@@ -138,7 +138,7 @@ const Past_Event = [
         semester:"Spring 2024",
         date:"3/13/2024",
         EventImg:EventImages.SchoolOutReachProgram_img,
-        post_link:"",
+        post_link:"https://www.instagram.com/p/C4x9HHkO991/?img_index=1",
     },
 
     {
@@ -147,7 +147,7 @@ const Past_Event = [
         semester:"Spring 2024",
         date:"3/13/2024",
         EventImg:EventImages.SisterHoodBracelet_img,
-        post_link:"",
+        post_link:"https://www.instagram.com/p/DBW76Tgzn2A/",
     },
 
     {
@@ -156,7 +156,7 @@ const Past_Event = [
         semester:"Spring 2024",
         date:"03/06/2024",
         EventImg:EventImages.BreakThroughTechSpring24_img,
-        post_link:"",
+        post_link:"https://www.instagram.com/p/C4RN5Lqym2o/?img_index=1",
     },
 
     {
@@ -165,7 +165,7 @@ const Past_Event = [
         semester:"Fall 2023",
         date:"11/08/2024",
         EventImg:EventImages.NFL_img,
-        post_link:"",
+        post_link:"https://www.instagram.com/p/C0N2MiRLL8B/?img_index=1",
     },
 
     {
@@ -174,7 +174,7 @@ const Past_Event = [
         semester:"Fall 2023",
         date:"11/08/2024",
         EventImg:EventImages.AECF_img,
-        post_link:"",
+        post_link:"https://www.instagram.com/p/CzkSQBmJfX3/?img_index=1",
     },
 ]
 

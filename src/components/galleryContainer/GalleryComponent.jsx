@@ -17,9 +17,11 @@ const GalleryComponent = ({eventImg, title, description, linkID, eventDate, even
         <div className="galleryContainer-description">
             <div className="galleryContainer-EventHeadline">
                 <p className="gallery-eventName">{title}</p>
-                <div className="box-arrow-links">
-                    <FaArrowRight className="component-arrow-links"/>
-                </div>
+                <a href={linkID} target="_blank" rel="noreferrer">
+    <div className="box-arrow-links">
+        <FaArrowRight className="component-arrow-links"/>
+    </div>
+</a>
                 
             </div>
 

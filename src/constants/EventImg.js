@@ -8,6 +8,7 @@ import SisterHoodBracelet_img from "../assets/Event-Img/SisterHoodBraceLet.jpg"
 import MarinaHack35_img from "../assets/Event-Img/MarinaHack3.5.jpg";
 import WOW_img from "../assets/Event-Img/WOW_img.jpg";
 import FirstGBM from "../assets/Event-Img/FirstGBM.jpg";
+
 // SPRING 2024 EVENT IMAGES
 
 // FALL 2024 EVENT IMAGES
@@ -17,7 +18,8 @@ import SchoolOutreach2025_img from "../assets/Event-Img/SchoolOutreach_2025.jpg"
 import MarinaHacks5_img from "../assets/Event-Img/MarinaHacks_5.0.jpg";
 import SisterhoodFall2025_img from "../assets/Event-Img/SisterhoodFall_2025.webp";
 
-// SPRING 2025 EVENT IMAGES
+// SPRING 2026 EVENT IMAGES
+import SisterhoodSpring2026_img from "../assets/Event-Img/SisterhoodSpring2026.png";
 
 
 // *CURRENT* FALL 2025 EVENT IMAGES
@@ -36,6 +38,7 @@ const eventImg = {
     SchoolOutreach2025_img,
     MarinaHacks5_img,
     SisterhoodFall2025_img,
+    SisterhoodSpring2026_img,
 }
 
 export default eventImg;

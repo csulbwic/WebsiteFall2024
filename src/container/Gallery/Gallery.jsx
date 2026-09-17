@@ -47,6 +47,7 @@ const Gallery = () =>{
                     eventDate = {past_event.date}
                     eventTerm = {past_event.semester}
                     description = {past_event.description}
+                    linkID = {past_event.post_link}
                     />
                 ))}
             </div>

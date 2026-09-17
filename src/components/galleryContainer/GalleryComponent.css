@@ -11,6 +11,7 @@
     max-height: 550px;
     padding: 25px;
     margin-right: 20px;
+    border-radius: 1.5rem;
     
     /* width: 300px; */
 }
@@ -40,6 +41,11 @@
     background: var(--color-hot-pink);
     width: 50px;
     height: 50px;
+}
+
+.box-arrow-links:hover{
+    transform: scale(1.15);
+    transition: transform 0.2s ease;
 }
 
 .component-arrow-links{
