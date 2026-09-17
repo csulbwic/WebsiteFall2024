@@ -71,9 +71,27 @@ const Current_Event = [
 ]
 
 const Past_Event = [
+    // 2026-2027 Events starting from most recent (top) to least recent (bottom)
+{
+    title:"GBM#1",
+    description:"The first GBM of Fall 2026 where members met the officers and learned about the semester's programs including School Outreach, Sisterhood, Marina Hacks, socials, and ways to get involved.",
+    semester:"Fall 2026",
+    date:"9/10/2026",
+    EventImg:EventImages.Fall26GBM_img,
+    post_link:"https://www.instagram.com/p/Dc4RD3CFUjV/",
+},
 
-    // 2025-2026 Events starting from most recent to least recent
+{
+    title:"Week of Welcome",
+    description:"WIC kicked off the 2026-2027 school year by welcoming new and returning members, sharing upcoming plans for the year, and connecting students with the WIC community.",
+    semester:"Fall 2026",
+    date:"9/3/2026",
+    EventImg:EventImages.Fall26WOW_img,
+    post_link:"https://www.instagram.com/p/DdANOSOjdqC/?img_index=1",
+},
+//End of 2026-2027 Event List
 
+    // 2025-2026 Events starting from most recent (top) to least recent (bottom)
 {
     title:"Sisterhood Program",
     description:"WIC Sisterhood teams showcased their Spring 2026 projects, including PufferPhish, a Chrome extension that detects phishing emails, and a machine learning model that predicts student dropout risk.",
@@ -109,8 +127,7 @@ const Past_Event = [
         EventImg:EventImages.WOW25_img,
         post_link:"https://www.instagram.com/p/DOHHd4SEt2S/?utm_source=ig_web_button_share_sheet",
     },
-
-    // End of 2025-2026 Event List
+// End of 2025-2026 Event List
 
     {
         title:"GBM#1",

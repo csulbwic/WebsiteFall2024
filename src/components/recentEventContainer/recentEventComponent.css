@@ -7,8 +7,10 @@
     flex-direction: column;
     padding: 1em 2em;
     gap: 20px;
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px rgb(198, 20, 144);
     cursor: pointer;
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px 10px var(--color-vivid-pink);
 
     position: relative;
 
@@ -24,7 +26,6 @@
     z-index: 5;
     opacity: 0;
 }
-
 
 
 .recentEvent__component:hover{
