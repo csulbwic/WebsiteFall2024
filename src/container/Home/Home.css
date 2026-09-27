@@ -33,6 +33,40 @@
     display: none;
 }
 
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
+.club__home-overlay img {
+    animation: float 3s ease-in-out infinite;
+}
+
+.club__home-overlay {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.club__home-overlay::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 70%;
+    height: 30px;
+    background: radial-gradient(ellipse, rgba(0,0,0,0.35) 0%, transparent 70%);
+    border-radius: 50%;
+    animation: shadow 3s ease-in-out infinite;
+}
+
+@keyframes shadow {
+    0% { transform: scaleX(1.4); opacity: 0.2; }
+    50% { transform: scaleX(0.7); opacity: 0.6; }
+    100% { transform: scaleX(1.4); opacity: 0.2; }
+}
+
 @media screen and (max-width:2560px){
     .club__home-overlay img{
         width: 800px;

@@ -73,6 +73,14 @@ const Current_Event = [
 const Past_Event = [
     // 2026-2027 Events starting from most recent (top) to least recent (bottom)
 {
+    title:"S.Ghibli Movie & Painting Social",
+    description:"Members came together for a Studio Ghibli movie screening and painting session, where everyone painted tote bags and canvases with their own designs while relaxing and watching a classic film.",
+    semester:"Fall 2026",
+    date:"9/22/2026",
+    EventImg:EventImages.GhibliSocial_img,
+    post_link:"https://www.instagram.com/p/DdZZuaxFPDS/",
+},
+{
     title:"GBM#1",
     description:"The first GBM of Fall 2026 where members met the officers and learned about the semester's programs including School Outreach, Sisterhood, Marina Hacks, socials, and ways to get involved.",
     semester:"Fall 2026",

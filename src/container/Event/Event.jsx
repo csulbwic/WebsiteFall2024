@@ -26,7 +26,7 @@ const Event = () =>(
             </div>
             <div className="club__event-recent-event">
                 <div className="recent-event-headline">
-                    <h1>recent event</h1>
+                    <h1>Recent Event</h1>
                 </div>
                 <div className="recent-event-content">
                         {EventData.Past_Event && EventData.Past_Event.slice(0,3).map((Past_Event, index) =>(

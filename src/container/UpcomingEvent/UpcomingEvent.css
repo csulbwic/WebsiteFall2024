@@ -1,0 +1,236 @@
+.club__upcoming-container {
+    background: var(--color-pink);
+    display: flex;
+    flex-direction: column;
+}
+
+.club__upcoming-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2rem;
+}
+
+/* LEFT SIDE - Upcoming Events Flyers */
+.club__upcoming-left {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-light-pink);
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.upcoming-arrows {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    align-self: flex-end;
+    width: 100%;
+}
+
+.upcoming-arrow-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.upcoming-arrow-icon:hover {
+    background-color: var(--color-light-pink2);
+}
+
+.upcoming-flyers-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.upcoming-flyers-container::-webkit-scrollbar {
+    display: none;
+}
+
+.upcoming-flyer-card {
+    min-width: 300px;
+    max-width: 300px;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: relative;
+}
+
+.upcoming-flyer-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.flyer-click-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 57, 153, 0.4);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    opacity: 0.7;
+    color: #fff;
+}
+
+.upcoming-flyer-card:hover .flyer-click-icon {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+    transition: all 0.2s ease;
+}
+
+.upcoming-flyer-card:hover {
+    transform: scale(1.03);
+    transition: transform 0.2s ease;
+}
+
+/* RIGHT SIDE - Marina Hacks */
+.club__upcoming-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #cdb4db, #ffc8dd, #ffafcc, #bde0fe, #a2d2ff);
+    border-radius: 2rem;
+    padding: 3rem;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+.marina-hacks-title {
+    font-family: var(--font-base), sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.marina-hacks-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.marina-hacks-date {
+    font-family: var(--font-alt), sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.marina-hacks-location {
+    font-family: var(--font-alt), sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+.marina-hacks-description {
+    font-family: var(--font-alt), sans-serif;
+    font-size: 18px;
+    color: #fff;
+    max-width: 400px;
+}
+
+.marina-hacks-btn {
+    margin-top: 1rem;
+    background: #fff;
+    color: #cdb4db;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    font-size: 16px;
+}
+
+.marina-hacks-btn:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+@media screen and (max-width: 1024px) {
+    .club__upcoming-content {
+        flex-direction: column;
+    }
+
+    .marina-hacks-title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .marina-hacks-title {
+        font-size: 30px;
+    }
+
+    .marina-hacks-description {
+        font-size: 16px;
+    }
+}
+
+/* FLYER MODAL */
+.flyer-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.flyer-modal-content {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+    cursor: default;
+}
+
+.flyer-modal-content img {
+    max-width: 100%;
+    max-height: 90vh;
+    border-radius: 1rem;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.flyer-modal-close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background: var(--color-vivid-pink);
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.flyer-modal-close:hover {
+    transform: scale(1.1);
+}

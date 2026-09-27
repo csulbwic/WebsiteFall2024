@@ -1,4 +1,5 @@
 import Home from './Home/Home';
+import UpcomingEvent from "./UpcomingEvent/UpcomingEvent";
 import Event from './Event/Event';
 import Team from './Team/Team';
 import Program from './Program/Program';
@@ -8,6 +9,7 @@ import Membership from './Membership/Membership';
 
 export{
     Home,
+    UpcomingEvent,
     Event,
     Team,
     Program,
