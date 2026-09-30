@@ -72,8 +72,16 @@ const Current_Event = [
 
 const Past_Event = [
     // 2026-2027 Events starting from most recent (top) to least recent (bottom)
+/*{
+    title:"GBM #3: GitHub Fundamentals Workshop",
+    description:"",
+    semester:"Fall 2026",
+    date:"10/1/2026",
+    EventImg:,
+    post_link:,
+},*/
 {
-    title:"S.Ghibli Movie & Painting Social",
+    title:"GBM#2: S.Ghibli Movie & Painting Social",
     description:"Members came together for a Studio Ghibli movie screening and painting session, where everyone painted tote bags and canvases with their own designs while relaxing and watching a classic film.",
     semester:"Fall 2026",
     date:"9/22/2026",
@@ -81,7 +89,7 @@ const Past_Event = [
     post_link:"https://www.instagram.com/p/DdZZuaxFPDS/",
 },
 {
-    title:"GBM#1",
+    title:"GBM#1: Introductions",
     description:"The first GBM of Fall 2026 where members met the officers and learned about the semester's programs including School Outreach, Sisterhood, Marina Hacks, socials, and ways to get involved.",
     semester:"Fall 2026",
     date:"9/10/2026",
