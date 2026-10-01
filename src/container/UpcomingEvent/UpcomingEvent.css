@@ -2,6 +2,13 @@
     background: var(--color-pink);
     display: flex;
     flex-direction: column;
+    padding-top: 0.5rem !important;
+}
+
+.club__upcoming-header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .club__upcoming-content {
@@ -11,15 +18,42 @@
     gap: 2rem;
 }
 
-/* LEFT SIDE - Upcoming Events Flyers */
 .club__upcoming-left {
-    flex: 1.5;
+    flex: 0.8;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: var(--color-light-pink);
     border-radius: 2rem;
     padding: 2rem;
+}
+
+.upcoming-banner-wrapper {
+    max-width: 320px;
+    overflow: hidden;
+    background: var(--color-vivid-pink);
+    border-radius: 1rem;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+}
+
+.upcoming-banner-scroll {
+    display: flex;
+    white-space: nowrap;
+    animation: scrollBanner 12s linear infinite;
+}
+
+.upcoming-banner-scroll span {
+    font-family: var(--font-base), sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+@keyframes scrollBanner {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
 }
 
 .upcoming-arrows {
@@ -43,12 +77,13 @@
 .upcoming-flyers-container {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 320px;
     overflow-x: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
     gap: 1.5rem;
-    justify-content: center;
+    justify-content: flex-start;
+    scroll-behavior: smooth;
 }
 
 .upcoming-flyers-container::-webkit-scrollbar {
@@ -100,90 +135,200 @@
     transition: transform 0.2s ease;
 }
 
-/* RIGHT SIDE - Marina Hacks */
 .club__upcoming-right {
-    flex: 1;
+    flex: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, #cdb4db, #ffc8dd, #ffafcc, #bde0fe, #a2d2ff);
     border-radius: 2rem;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
     gap: 1.5rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.club__upcoming-right::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(189, 121, 215, 0.4);
+    border-radius: 2rem;
+    z-index: 0;
+}
+
+.club__upcoming-right > * {
+    position: relative;
+    z-index: 1;
+}
+
+.marina-hacks-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.marina-hacks-logo {
+    width: 280px;
+    height: auto;
+    animation: marinaFloat 3s ease-in-out infinite;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+}
+
+@keyframes marinaFloat {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
 }
 
 .marina-hacks-title {
     font-family: var(--font-base), sans-serif;
-    font-size: 50px;
+    font-size: 32px;
     font-weight: 700;
     color: #fff;
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
-}
-
-.marina-hacks-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 .marina-hacks-date {
     font-family: var(--font-alt), sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    color: #fff;
-}
-
-.marina-hacks-location {
-    font-family: var(--font-alt), sans-serif;
     font-size: 20px;
-    color: #fff;
-}
-
-.marina-hacks-description {
-    font-family: var(--font-alt), sans-serif;
-    font-size: 18px;
-    color: #fff;
-    max-width: 400px;
-}
-
-.marina-hacks-btn {
-    margin-top: 1rem;
-    background: #fff;
-    color: #cdb4db;
     font-weight: 600;
-    cursor: pointer;
-    border: none;
-    padding: 0.8rem 2rem;
-    border-radius: 2rem;
-    font-size: 16px;
+    color: #f0e6ff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.marina-hacks-btn:hover {
-    transform: scale(1.05);
+.marina-hacks-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    width: 100%;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.marina-hacks-left-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.marina-hacks-about {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.marina-hacks-schedule-box {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 1rem;
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.marina-hacks-schedule-box:hover {
+    transform: scale(1.03);
     transition: transform 0.2s ease;
 }
 
-@media screen and (max-width: 1024px) {
-    .club__upcoming-content {
-        flex-direction: column;
-    }
-
-    .marina-hacks-title {
-        font-size: 40px;
-    }
+.marina-hacks-schedule-box:hover .flyer-click-icon {
+    opacity: 1;
 }
 
-@media screen and (max-width: 450px) {
-    .marina-hacks-title {
-        font-size: 30px;
-    }
+.marina-hacks-subtitle {
+    font-family: var(--font-base), sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0.5rem;
+}
 
-    .marina-hacks-description {
-        font-size: 16px;
-    }
+.marina-hacks-about-text,
+.marina-hacks-schedule-text {
+    font-family: var(--font-alt), sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+.marina-hacks-schedule-img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.marina-hacks-mid-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.marina-hacks-star {
+    color: #f5e6b8;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.marina-hacks-link-btn {
+    background: rgba(255, 255, 255, 0.9);
+    color: #7b5ea7;
+    font-family: var(--font-alt), sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0.8rem 1.5rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.2s ease;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+}
+
+.marina-hacks-link-btn:hover {
+    transform: scale(1.05);
+    background: #fff;
+}
+
+.marina-hacks-right-col {
+    flex: 1;
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.marina-hacks-right-col img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.marina-hacks-right-col:hover {
+    transform: scale(1.03);
+    transition: transform 0.2s ease;
+}
+
+.marina-hacks-right-col:hover .flyer-click-icon {
+    opacity: 1;
 }
 
 /* FLYER MODAL */
@@ -233,4 +378,39 @@
 
 .flyer-modal-close:hover {
     transform: scale(1.1);
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 1024px) {
+    .club__upcoming-content {
+        flex-direction: column;
+    }
+
+    .marina-hacks-title {
+        font-size: 26px;
+    }
+
+    .marina-hacks-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .marina-hacks-logo {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .marina-hacks-title {
+        font-size: 22px;
+    }
+
+    .marina-hacks-mid-col {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .marina-hacks-logo {
+        width: 150px;
+    }
 }

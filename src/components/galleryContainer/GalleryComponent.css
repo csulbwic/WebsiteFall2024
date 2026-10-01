@@ -8,12 +8,17 @@
 
     background-color: var(--color-light-pink);
     box-shadow: 5px 5px 10px var(--color-vivid-pink);
+    max-height: 550px;
     padding: 25px;
     margin-right: 20px;
     border-radius: 1.5rem;
     overflow: hidden;
-    
     min-width: 350px;
+}
+
+/*fixes image overflow for S.Ghibli painting social in gallery*/ 
+.galleryContainer-img {
+    overflow: hidden;
 }
 
 .galleryContainer-img img{
