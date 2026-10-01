@@ -44,10 +44,6 @@ const UpcomingEvent = () => {
                             <span>Workshops ~ Speaker Events ~ Socials ~ Fundraisers ~ More to Come! ~&nbsp;</span>
                         </div>
                     </div>
-                    <div className="upcoming-arrows">
-                        <BsArrowLeftShort className="upcoming-arrow-icon" cursor="pointer" onClick={() => scroll('left')} />
-                        <BsArrowRightShort className="upcoming-arrow-icon" cursor="pointer" onClick={() => scroll('right')} />
-                    </div>
                     <div className="upcoming-flyers-container" ref={scrollRef}>
                         {flyers.map((flyer, index) => (
                             <div className="upcoming-flyer-card" key={index} onClick={() => setSelectedFlyer(flyer.img)}>
@@ -56,11 +52,23 @@ const UpcomingEvent = () => {
                             </div>
                         ))}
                     </div>
+                    <div className="upcoming-arrows">
+                        <BsArrowLeftShort className="upcoming-arrow-icon" cursor="pointer" onClick={() => scroll('left')} />
+                        <BsArrowRightShort className="upcoming-arrow-icon" cursor="pointer" onClick={() => scroll('right')} />
+                    </div>
                 </div>
 
                 <div className="club__upcoming-right" style={{ backgroundImage: `url(${MarinaHacksBG})` }}>
                     <div className="marina-hacks-top">
-                        <img src={MarinaHacksLogo} alt="Marina Hacks Logo" className="marina-hacks-logo" />
+                        <div className="marina-hacks-logo-wrapper">
+                            <span className="bubble bubble-1"></span>
+                            <span className="bubble bubble-2"></span>
+                            <span className="bubble bubble-3"></span>
+                            <img src={MarinaHacksLogo} alt="Marina Hacks Logo" className="marina-hacks-logo" />
+                            <span className="bubble bubble-4"></span>
+                            <span className="bubble bubble-5"></span>
+                            <span className="bubble bubble-6"></span>
+                        </div>
                         <h1 className="marina-hacks-title">Join Marina Hacks 6.0!</h1>
                         <p className="marina-hacks-date">October 24-25, 2026 | CSULB</p>
                     </div>
@@ -74,9 +82,9 @@ const UpcomingEvent = () => {
                         </div>
 
                         <div className="marina-hacks-mid-col">
-                            <a href="https://forms.gle/AMD1JpYiPd9rBt227" target="_blank" rel="noreferrer" className="marina-hacks-link-btn">Hacker Registration</a>
+                            <a href="https://forms.gle/AMD1JpYiPd9rBt227" target="_blank" rel="noreferrer" className="marina-hacks-link-btn">Hacker Registration ➚</a>
                             <span className="marina-hacks-star">✦</span>
-                            <a href="https://forms.gle/oCmgVNdkN9Y5Qkg39" target="_blank" rel="noreferrer" className="marina-hacks-link-btn">Volunteer Registration</a>
+                            <a href="https://forms.gle/oCmgVNdkN9Y5Qkg39" target="_blank" rel="noreferrer" className="marina-hacks-link-btn">Volunteer Registration ➚</a>
                         </div>
 
                         <div className="marina-hacks-right-col" onClick={() => setSelectedFlyer(MarinaHacksSchedule)}>

@@ -26,6 +26,7 @@
     background: var(--color-light-pink);
     border-radius: 2rem;
     padding: 2rem;
+    box-shadow: 5px 5px 10px var(--color-vivid-pink);
 }
 
 .upcoming-banner-wrapper {
@@ -35,6 +36,7 @@
     border-radius: 1rem;
     padding: 0.5rem 0;
     margin-bottom: 1rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
 }
 
 .upcoming-banner-scroll {
@@ -58,16 +60,20 @@
 
 .upcoming-arrows {
     display: flex;
-    justify-content: flex-end;
-    margin-bottom: 10px;
-    align-self: flex-end;
+    justify-content: center;
+    margin-top: 10px;
     width: 100%;
+    gap: 0.5rem;
 }
 
 .upcoming-arrow-icon {
     width: 40px;
     height: 40px;
     cursor: pointer;
+    background: rgba(237, 156, 202, 0.9);
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 5px;
 }
 
 .upcoming-arrow-icon:hover {
@@ -95,7 +101,7 @@
     max-width: 300px;
     border-radius: 1rem;
     overflow: hidden;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.35);
     cursor: pointer;
     position: relative;
 }
@@ -151,6 +157,7 @@
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(149, 29, 197, 0.5);
 }
 
 .club__upcoming-right::before {
@@ -160,7 +167,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(189, 121, 215, 0.4);
+    background: rgba(155, 89, 182, 0.4);
     border-radius: 2rem;
     z-index: 0;
 }
@@ -226,6 +233,7 @@
     background: rgba(255, 255, 255, 0.3);
     border-radius: 1rem;
     padding: 1.5rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
     position: relative;
     flex: 1;
     display: flex;
@@ -237,6 +245,7 @@
     background: rgba(255, 255, 255, 0.3);
     border-radius: 1rem;
     padding: 1rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
     position: relative;
     cursor: pointer;
 }
@@ -299,19 +308,26 @@
     text-decoration: none;
     text-align: center;
     transition: all 0.2s ease;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.35);
     white-space: nowrap;
 }
 
 .marina-hacks-link-btn:hover {
     transform: scale(1.05);
-    background: #fff;
+    background: #7b5ea7;
+    color: #fff;
+}
+
+.marina-hacks-link-btn:active {
+    background: #5a3d7a;
+    color: #fff;
+    transform: scale(0.98);
 }
 
 .marina-hacks-right-col {
     flex: 1;
     border-radius: 1rem;
-    overflow: hidden;
+    overflow: visible;
     cursor: pointer;
     position: relative;
 }
@@ -413,4 +429,72 @@
     .marina-hacks-logo {
         width: 150px;
     }
+}
+
+.marina-hacks-logo-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubble {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.834);
+    animation: bubbleFloat 4s ease-in-out infinite;
+}
+
+.bubble-1 {
+    width: 20px;
+    height: 20px;
+    left: -30px;
+    top: 20px;
+    animation-delay: 0s;
+}
+
+.bubble-2 {
+    width: 12px;
+    height: 12px;
+    left: -15px;
+    top: 80px;
+    animation-delay: 0.8s;
+}
+
+.bubble-3 {
+    width: 16px;
+    height: 16px;
+    left: -40px;
+    top: 50px;
+    animation-delay: 1.5s;
+}
+
+.bubble-4 {
+    width: 18px;
+    height: 18px;
+    right: -25px;
+    top: 30px;
+    animation-delay: 0.3s;
+}
+
+.bubble-5 {
+    width: 14px;
+    height: 14px;
+    right: -40px;
+    top: 70px;
+    animation-delay: 1s;
+}
+
+.bubble-6 {
+    width: 10px;
+    height: 10px;
+    right: -15px;
+    top: 90px;
+    animation-delay: 1.8s;
+}
+
+@keyframes bubbleFloat {
+    0% { transform: translateY(0px); opacity: 0.3; }
+    50% { transform: translateY(-15px); opacity: 0.7; }
+    100% { transform: translateY(0px); opacity: 0.3; }
 }
