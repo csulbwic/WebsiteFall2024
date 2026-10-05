@@ -25,7 +25,6 @@ const UpcomingEvent = () => {
     };
 
     const flyers = [
-        { img: GithubWorkshop, title: "GitHub Fundamentals Workshop", date: "October 1, 2026" },
         { img: IndustrySpeaker, title: "Industry Speaker: Susan Brennan", date: "October 6, 2026" },
         { img: MarinaHacksFlyer, title: "Marina Hacks 6.0", date: "October 24-25, 2026" },
     ];

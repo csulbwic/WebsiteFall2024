@@ -69,17 +69,17 @@ const Current_Event = [
         RSVP_link:"",
     },
 ]
-
 const Past_Event = [
     // 2026-2027 Events starting from most recent (top) to least recent (bottom)
-/*{
+{
     title:"GBM #3: GitHub Fundamentals Workshop",
-    description:"",
+    description:"An interactive GitHub workshop where students learned version control fundamentals, built industry-relevant skills, and prepared for upcoming hackathons through hands-on practice.",
     semester:"Fall 2026",
     date:"10/1/2026",
-    EventImg:,
-    post_link:,
-},*/
+    EventImg:EventImages.GitHubFundamentalsFall2026_img,
+    post_link:"https://www.instagram.com/p/DdrbNsWDWdA/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==",
+    slides_link:"https://docs.google.com/presentation/d/13dYSAPggnyNfkTC7qicehkhkGXDTfMErsJqym-LJx6Y/edit?usp=sharing",
+},
 {
     title:"GBM#2: S.Ghibli Movie & Painting Social",
     description:"Members came together for a Studio Ghibli movie screening and painting session, where everyone painted tote bags and canvases with their own designs while relaxing and watching a classic film.",

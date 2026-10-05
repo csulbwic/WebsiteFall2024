@@ -2,16 +2,24 @@ import React from "react";
 import './GalleryComponent.css';
 
 import { FaArrowRight } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
-// import images from "../../constants/logo_img"
-
-const GalleryComponent = ({eventImg, title, description, linkID, eventDate, eventTerm})=>
+const GalleryComponent = ({eventImg, title, description, linkID, eventDate, eventTerm, slidesLink})=>
     
     (
 
     <div className="galleryContainer__component">
         <div className="galleryContainer-img">
-            <img src={eventImg} alt="" />
+            {slidesLink ? (
+                <a href={slidesLink} target="_blank" rel="noreferrer" className="gallery-slides-link">
+                    <img src={eventImg} alt="" />
+                    <div className="gallery-slides-icon">
+                        <FaExternalLinkAlt />
+                    </div>
+                </a>
+            ) : (
+                <img src={eventImg} alt="" />
+            )}
         </div>
 
         <div className="galleryContainer-description">

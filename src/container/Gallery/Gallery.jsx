@@ -48,17 +48,13 @@ const Gallery = () =>{
                     eventTerm = {past_event.semester}
                     description = {past_event.description}
                     linkID = {past_event.post_link}
+                    slidesLink = {past_event.slides_link}
                     />
                 ))}
             </div>
         </div>
 
-        
-    
-    
     </div>
-    
-    
 
 )}; 
 
