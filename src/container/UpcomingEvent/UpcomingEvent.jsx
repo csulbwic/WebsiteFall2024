@@ -5,7 +5,7 @@ import { SubHeading } from '../../components';
 import images from "../../constants/logo_img";
 
 import IndustrySpeaker from "../../assets/Event-Img/IndustrySpeakerSusanBrennan.png";
-import GithubWorkshop from "../../assets/Event-Img/githubFundementalsWorkshop.png";
+// import GithubWorkshop from "../../assets/Event-Img/githubFundementalsWorkshop.png";
 import MarinaHacksLogo from "../../assets/Event-Img/marina_hacks_original_colors_transparent.png";
 import MarinaHacksBG from "../../assets/Event-Img/MarinaHacks6.0BG.png";
 import MarinaHacksFlyer from "../../assets/Event-Img/Marinahacks6.0Flyer.png";
