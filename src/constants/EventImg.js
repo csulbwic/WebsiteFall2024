@@ -23,6 +23,7 @@ import WOW25_img from "../assets/Event-Img/wow_2025.png";
 import SisterhoodSpring2026_img from "../assets/Event-Img/SisterhoodSpring2026.png";
 
 // FALL 2026 EVENT IMAGES
+import SusanBrennanSpeakerFall2026_img from "../assets/Event-Img/SusanBrennanSpeakerFall2026.jpg";
 import GitHubFundamentalsFall2026_img from "../assets/Event-Img/GHFun2026Fall.png";
 import GhibliSocial_img from "../assets/Event-Img/ghibliPaintsocial.jpg";
 import Fall26GBM_img from "../assets/Event-Img/Fall26_GBM.png";
@@ -48,6 +49,7 @@ const eventImg = {
     Fall26WOW_img,
     GhibliSocial_img,
     GitHubFundamentalsFall2026_img,
+    SusanBrennanSpeakerFall2026_img,
 }
 
 export default eventImg;

@@ -4,8 +4,11 @@ import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 import { SubHeading } from '../../components';
 import images from "../../constants/logo_img";
 
-import IndustrySpeaker from "../../assets/Event-Img/IndustrySpeakerSusanBrennan.png";
-// import GithubWorkshop from "../../assets/Event-Img/githubFundementalsWorkshop.png";
+// Flyer slider section for upcoming events (Fall 2026 Events) (old flyers are deleted once event has happened since they are linked anyways in the gallery section)
+import PhishingTDSocial from "../../assets/Event-Img/PhishingTDSocialENGFall2026.png";
+import AIAutomotive from "../../assets/Event-Img/AI_in_the_Automotive_Industry_1Fall2026.png";
+
+// Assets for marina hacks 6.0 module below
 import MarinaHacksLogo from "../../assets/Event-Img/marina_hacks_original_colors_transparent.png";
 import MarinaHacksBG from "../../assets/Event-Img/MarinaHacks6.0BG.png";
 import MarinaHacksFlyer from "../../assets/Event-Img/Marinahacks6.0Flyer.png";
@@ -25,7 +28,8 @@ const UpcomingEvent = () => {
     };
 
     const flyers = [
-        { img: IndustrySpeaker, title: "Industry Speaker: Susan Brennan", date: "October 6, 2026" },
+        { img: PhishingTDSocial, title: "Phishing TD Social", date: "October 13, 2026" },
+        { img: AIAutomotive, title: "AI in the Automotive Industry", date: "October 15, 2026" },
         { img: MarinaHacksFlyer, title: "Marina Hacks 6.0", date: "October 24-25, 2026" },
     ];
 

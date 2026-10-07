@@ -72,7 +72,15 @@ const Current_Event = [
 const Past_Event = [
     // 2026-2027 Events starting from most recent (top) to least recent (bottom)
 {
-    title:"GBM #3: GitHub Fundamentals Workshop",
+    title:"GBM#4: Industry Speaker: Susan Brennan",
+    description:"An open conversation with Susan Brennan, an industry executive and engineering leader with 25+ years in the automotive industry, about career, education, leadership, and finding your place in engineering.",
+    semester:"Fall 2026",
+    date:"10/6/2026",
+    EventImg:EventImages.SusanBrennanSpeakerFall2026_img,
+    post_link:"https://www.instagram.com/p/DeAbcmPGC6v/",
+},
+{
+    title:"GBM#3: GitHub Fundamentals Workshop",
     description:"An interactive GitHub workshop where students learned version control fundamentals, built industry-relevant skills, and prepared for upcoming hackathons through hands-on practice.",
     semester:"Fall 2026",
     date:"10/1/2026",
