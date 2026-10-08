@@ -83,7 +83,7 @@ const UpcomingEvent = () => {
                             <div className="marina-hacks-mid-col">
                                 <a href="https://forms.gle/AMD1JpYiPd9rBt227" target="_blank" rel="noreferrer" className="marina-hacks-link-btn">Hacker Registration ➚</a>
                                 <span className="marina-hacks-star">✦</span>
-                                <a href="https://forms.gle/oCmgVNdkN9Y5Qkg39" target="_blank" rel="noreferrer" className="marina-hacks-link-btn">Volunteer Registration ➚</a>
+                                <a href="https://forms.gle/oCmgVNdkN9Y5Qkg39" target="_blank" rel="noreferrer" className="marina-hacks-link-btn" style={{ fontSize: '19px', padding: '0.8rem 1.5rem' }} >Volunteer Registration ➚</a>
                             </div>
                         </div>
 
