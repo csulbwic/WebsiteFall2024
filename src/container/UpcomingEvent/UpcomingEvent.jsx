@@ -5,7 +5,6 @@ import { SubHeading } from '../../components';
 import images from "../../constants/logo_img";
 
 // Flyer slider section for upcoming events (Fall 2026 Events)
-import PhishingTDSocial from "../../assets/Event-Img/PhishingTDSocialENGFall2026.png";
 import AIAutomotive from "../../assets/Event-Img/AI_in_the_Automotive_Industry_1Fall2026.png";
 
 // Assets for marina hacks 6.0 module below
@@ -28,7 +27,6 @@ const UpcomingEvent = () => {
     };
 
     const flyers = [
-        { img: PhishingTDSocial, title: "Phishing TD Social", date: "October 13, 2026" },
         { img: AIAutomotive, title: "AI in the Automotive Industry", date: "October 15, 2026" },
         { img: MarinaHacksFlyer, title: "Marina Hacks 6.0", date: "October 24-25, 2026" },
     ];
