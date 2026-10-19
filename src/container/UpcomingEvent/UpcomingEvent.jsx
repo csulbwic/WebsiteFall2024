@@ -5,7 +5,7 @@ import { SubHeading } from '../../components';
 import images from "../../constants/logo_img";
 
 // Flyer slider section for upcoming events (Fall 2026 Events)
-import AIAutomotive from "../../assets/Event-Img/AI_in_the_Automotive_Industry_1Fall2026.png";
+import HalloweenClay from "../../assets/Event-Img/HalloweenClayFall2026Social.png";
 
 // Assets for marina hacks 6.0 module below
 import MarinaHacksLogo from "../../assets/Event-Img/marina_hacks_original_colors_transparent.png";
@@ -27,7 +27,7 @@ const UpcomingEvent = () => {
     };
 
     const flyers = [
-        { img: AIAutomotive, title: "AI in the Automotive Industry", date: "October 15, 2026" },
+        { img: HalloweenClay, title: "Halloween Clay Social", date: "October ??, 2026" },
         { img: MarinaHacksFlyer, title: "Marina Hacks 6.0", date: "October 24-25, 2026" },
     ];
 
@@ -67,21 +67,18 @@ const UpcomingEvent = () => {
                                     <span className="bubble bubble-1"></span>
                                     <span className="bubble bubble-2"></span>
                                     <span className="bubble bubble-3"></span>
-                                    <img src={MarinaHacksLogo} alt="Marina Hacks Logo" className="marina-hacks-logo" />
+                                    <img src={MarinaHacksLogo} alt="Marina Hacks Logo" className="marina-hacks-logo" style={{ width: '400px' }} />
                                     <span className="bubble bubble-4"></span>
                                     <span className="bubble bubble-5"></span>
                                     <span className="bubble bubble-6"></span>
                                 </div>
-                                <h1 className="marina-hacks-title">Join Marina Hacks 6.0!</h1>
                                 <p className="marina-hacks-date">October 24-25, 2026 | CSULB</p>
                             </div>
 
-                            
-
                             <div className="marina-hacks-mid-col">
-                                <a href="https://forms.gle/AMD1JpYiPd9rBt227" target="_blank" rel="noreferrer" className="marina-hacks-link-btn">Hacker Registration ➚</a>
-                                <span className="marina-hacks-star">✦</span>
-                                <a href="https://forms.gle/oCmgVNdkN9Y5Qkg39" target="_blank" rel="noreferrer" className="marina-hacks-link-btn" style={{ fontSize: '19px', padding: '0.8rem 1.5rem' }} >Volunteer Registration ➚</a>
+                                <p style={{ color: '#fff', fontSize: '18px', textAlign: 'center', maxWidth: '350px', lineHeight: '1.5', fontFamily: "'VT323', monospace" }}>
+                                    Registration has closed. Thank you — we can't wait to see what projects you all build!
+                                </p>
                             </div>
                         </div>
 

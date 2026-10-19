@@ -462,7 +462,7 @@
 .bubble-1 {
     width: 20px;
     height: 20px;
-    left: -30px;
+    left: 10px;
     top: 20px;
     animation-delay: 0s;
 }
@@ -470,7 +470,7 @@
 .bubble-2 {
     width: 12px;
     height: 12px;
-    left: -15px;
+    left: 20px;
     top: 80px;
     animation-delay: 0.8s;
 }
@@ -478,7 +478,7 @@
 .bubble-3 {
     width: 16px;
     height: 16px;
-    left: -40px;
+    left: 0px;
     top: 50px;
     animation-delay: 1.5s;
 }
@@ -486,7 +486,7 @@
 .bubble-4 {
     width: 18px;
     height: 18px;
-    right: -25px;
+    right: 10px;
     top: 30px;
     animation-delay: 0.3s;
 }
@@ -494,7 +494,7 @@
 .bubble-5 {
     width: 14px;
     height: 14px;
-    right: -40px;
+    right: 0px;
     top: 70px;
     animation-delay: 1s;
 }
@@ -502,7 +502,7 @@
 .bubble-6 {
     width: 10px;
     height: 10px;
-    right: -15px;
+    right: 20px;
     top: 90px;
     animation-delay: 1.8s;
 }

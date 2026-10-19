@@ -72,13 +72,22 @@ const Current_Event = [
 const Past_Event = [
     // 2026-2027 Events starting from most recent (top) to least recent (bottom)
 /*{
-    title:"GBM#6: Phishing Teardown & Social Manipulation Challenge",
-    description:".",
+    title:"GBM#7: Spooky Clay Halloween Social ",
+    description:"",
+    semester:"Fall 2026",
+    date:"10/20/2026",
+    EventImg:EventImages.,
+    post_link:"https://www.instagram.com/p/DekEvtVD5ia/?utm_source=ig_web_button_share_sheet",
+},
+*/
+{
+    title:"GBM#6: Speaker Event - AI in the Automotive Industry",
+    description:"Featuring technology leaders from Hyundai Motor America — Grace Newman, Mikayla Kosmala, and Ruby Ikei — who shared how AI is transforming workflows and data projects across the automotive industry.",
     semester:"Fall 2026",
     date:"10/15/2026",
-    EventImg:EventImages.,
-    post_link:"",
-},*/
+    EventImg:EventImages.AIinAutomotiveIndustry_img,
+    post_link:"https://www.instagram.com/p/DeaR-hAoNy_/?utm_source=ig_web_button_share_sheet",
+},
 {
     title:"GBM#5: Phishing Teardown & Social Manipulation Challenge",
     description:"An interactive workshop where students teamed up to create a mock phishing campaign based on their exploration of phishing tactics and the psychology behind online scams.",
@@ -88,7 +97,7 @@ const Past_Event = [
     post_link:"https://www.instagram.com/p/DeMwToVBmim/?cplk=ZHEydDY1dG92M3l3",
 },
 {
-    title:"GBM#4: Industry Speaker: Susan Brennan",
+    title:"GBM#4: Industry Speaker - Susan Brennan",
     description:"An open conversation with Susan Brennan, an industry executive and engineering leader with 25+ years in the automotive industry, about career, education, leadership, and finding your place in engineering.",
     semester:"Fall 2026",
     date:"10/6/2026",
