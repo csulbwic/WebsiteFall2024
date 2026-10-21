@@ -71,15 +71,15 @@ const Current_Event = [
 ]
 const Past_Event = [
     // 2026-2027 Events starting from most recent (top) to least recent (bottom)
-/*{
+{
     title:"GBM#7: Spooky Clay Halloween Social ",
-    description:"",
+    description:"A Halloween-themed social featuring clay modeling and a cozy screening of Coraline.",
     semester:"Fall 2026",
     date:"10/20/2026",
-    EventImg:EventImages.,
+    EventImg:EventImages.SpookyClaySocialFall2026_img,
     post_link:"https://www.instagram.com/p/DekEvtVD5ia/?utm_source=ig_web_button_share_sheet",
 },
-*/
+
 {
     title:"GBM#6: Speaker Event - AI in the Automotive Industry",
     description:"Featuring technology leaders from Hyundai Motor America — Grace Newman, Mikayla Kosmala, and Ruby Ikei — who shared how AI is transforming workflows and data projects across the automotive industry.",

@@ -5,7 +5,7 @@ import { SubHeading } from '../../components';
 import images from "../../constants/logo_img";
 
 // Flyer slider section for upcoming events (Fall 2026 Events)
-import HalloweenClay from "../../assets/Event-Img/HalloweenClayFall2026Social.png";
+ 
 
 // Assets for marina hacks 6.0 module below
 import MarinaHacksLogo from "../../assets/Event-Img/marina_hacks_original_colors_transparent.png";
@@ -27,7 +27,6 @@ const UpcomingEvent = () => {
     };
 
     const flyers = [
-        { img: HalloweenClay, title: "Halloween Clay Social", date: "October ??, 2026" },
         { img: MarinaHacksFlyer, title: "Marina Hacks 6.0", date: "October 24-25, 2026" },
     ];
 
@@ -41,8 +40,8 @@ const UpcomingEvent = () => {
                 <div className="club__upcoming-left">
                     <div className="upcoming-banner-wrapper">
                         <div className="upcoming-banner-scroll">
-                            <span>Workshops ~ Speaker Events ~ Socials ~ Fundraisers ~ More to Come! ~ Workshops ~ Speaker Events ~ Socials ~ Fundraisers ~ More to Come! ~&nbsp;</span>
-                            <span>Workshops ~ Speaker Events ~ Socials ~ Fundraisers ~ More to Come! ~ Workshops ~ Speaker Events ~ Socials ~ Fundraisers ~ More to Come! ~&nbsp;</span>
+                            <span>Workshops ~ Industry Events ~ Socials ~ Fundraisers ~ More to Come! ~ Workshops ~ Speaker Events ~ Socials ~ Fundraisers ~ More to Come! ~&nbsp;</span>
+                            <span>Workshops ~ Industry Events ~ Socials ~ Fundraisers ~ More to Come! ~ Workshops ~ Speaker Events ~ Socials ~ Fundraisers ~ More to Come! ~&nbsp;</span>
                         </div>
                     </div>
                     <div className="upcoming-flyers-container" ref={scrollRef}>
@@ -76,9 +75,11 @@ const UpcomingEvent = () => {
                             </div>
 
                             <div className="marina-hacks-mid-col">
-                                <p style={{ color: '#fff', fontSize: '18px', textAlign: 'center', maxWidth: '350px', lineHeight: '1.5', fontFamily: "'VT323', monospace" }}>
-                                    Registration has closed. Thank you — we can't wait to see what projects you all build!
-                                </p>
+                                <div style={{ background: 'rgba(255, 105, 180, 0.3)', borderRadius: '1rem', padding: '1.5rem', marginTop: '-3rem' }}>
+                                    <p style={{ color: '#fff', fontSize: '18px', textAlign: 'center', maxWidth: '350px', lineHeight: '1.5', fontFamily: "'VT323', monospace" }}>
+                                        Registration has closed. Thank you — we can't wait to see what projects you all build!
+                                    </p>
+                                </div>
                             </div>
                         </div>
 
