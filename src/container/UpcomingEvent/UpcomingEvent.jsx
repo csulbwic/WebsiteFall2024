@@ -5,7 +5,7 @@ import { SubHeading } from '../../components';
 import images from "../../constants/logo_img";
 
 // Flyer slider section for upcoming events (Fall 2026 Events)
- 
+import ChipotleFundraiser from "../../assets/Event-Img/ChipotleFundraiserFall2026.png"; 
 
 // Assets for marina hacks 6.0 module below
 import MarinaHacksLogo from "../../assets/Event-Img/marina_hacks_original_colors_transparent.png";
@@ -27,6 +27,7 @@ const UpcomingEvent = () => {
     };
 
     const flyers = [
+        { img: ChipotleFundraiser, title: "Chipotle Fundraiser", date: "October ??, 2026" },
         { img: MarinaHacksFlyer, title: "Marina Hacks 6.0", date: "October 24-25, 2026" },
     ];
 
