@@ -75,11 +75,14 @@ const UpcomingEvent = () => {
                             </div>
 
                             <div className="marina-hacks-mid-col">
-                                <div style={{ background: 'rgba(255, 105, 180, 0.3)', borderRadius: '1rem', padding: '1.5rem', marginTop: '-3rem' }}>
-                                    <p style={{ color: '#fff', fontSize: '18px', textAlign: 'center', maxWidth: '350px', lineHeight: '1.5', fontFamily: "'VT323', monospace" }}>
-                                        Registration has closed. Thank you — we can't wait to see what projects you all build!
-                                    </p>
-                                </div>
+                                    <div style={{ background: 'rgba(255, 105, 180, 0.3)', borderRadius: '1rem', padding: '1.5rem', marginTop: '-2rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                                        <p style={{ color: '#fff', fontSize: '18px', textAlign: 'center', maxWidth: '350px', lineHeight: '1.5', fontFamily: "'VT323', monospace" }}>
+                                            Registration has closed. Thank you — we can't wait to see what projects you all build!
+                                        </p>
+                                        <a href="https://www.marinahacks.com/" target="_blank" rel="noreferrer" className="marina-hacks-website-link" >
+                                            Visit marinahacks.com ➚
+                                        </a>
+                                    </div>
                             </div>
                         </div>
 
