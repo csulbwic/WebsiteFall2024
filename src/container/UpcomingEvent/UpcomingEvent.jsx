@@ -10,7 +10,7 @@ import ChipotleFundraiser from "../../assets/Event-Img/ChipotleFundraiserFall202
 // Assets for marina hacks 6.0 module below
 import MarinaHacksLogo from "../../assets/Event-Img/marina_hacks_original_colors_transparent.png";
 import MarinaHacksBG from "../../assets/Event-Img/MarinaHacks6.0BG.png";
-import MarinaHacksSchedule from "../../assets/Event-Img/MarinaHacks6.0Schedule.png";
+//import MarinaHacksSchedule from "../../assets/Event-Img/MarinaHacks6.0Schedule.png";
 
 const UpcomingEvent = () => {
     const scrollRef = React.useRef(null);
@@ -104,7 +104,7 @@ const UpcomingEvent = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> 
 
             {selectedFlyer && (
                 <div className="flyer-modal" onClick={() => setSelectedFlyer(null)}>
