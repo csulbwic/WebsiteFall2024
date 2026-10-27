@@ -24,7 +24,6 @@ const Navbar = () =>{
                 {/* <li><a href="#mission">mission</a></li> */}
                 {/*<li><a href="#wow">WoW</a></li>*/}
                 <li><a href="#program">Programs</a></li>
-                <li><a href="#event">Events</a></li>
                 <li><a href="#team">Team</a></li>
                 <li><a href="#gallery">Gallery</a></li>
             </ul>
@@ -39,18 +38,9 @@ const Navbar = () =>{
                 {toggleMenu &&(
                     <div className="club__navbar-smallscreen_overlay flex__center slide-bot">
                         <BiMenuAltRight color ="000" fontSize={30} className="overlay__close" onClick={() => setToggleMenu(false)}></BiMenuAltRight>
-                        {/*<ul className='club__navbar-smallscreen_links'>
-                            <li><a href="#home">home</a></li>
-                            <li><a href="#wow">wow</a></li>
-                            <li><a href="#program">program</a></li>
-                            <li><a href="#event">event</a></li>
-                            <li><a href="#team">team</a></li>
-                            <li><a href="#gallery">gallery</a></li>
-                            </ul>
-                        */}
 
                         <ul className='club__navbar-smallscreen_links'>
-                            {['home','upcoming','program','event','team','gallery','join'].map((link) => (
+                            {['home','upcoming','program','team','gallery','join'].map((link) => (
                                 <li key={link}>
                                 <a href={`#${link}`} onClick={() => setToggleMenu(false)}>
                                     {link === 'join' ? 'join us' : link}

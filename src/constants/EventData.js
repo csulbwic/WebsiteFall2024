@@ -71,6 +71,16 @@ const Current_Event = [
 ]
 const Past_Event = [
     // 2026-2027 Events starting from most recent (top) to least recent (bottom)
+/*
+{
+    title:"Marina Hacks 6.0",
+    description:"An annual beginner-friendly 24-hour hackathon where students collaborate to build innovative projects.",
+    semester:"Fall 2026",
+    date:"10/25/2026",
+    EventImg:EventImages.,
+    post_link:"https://www.instagram.com/reel/De-Q5LyiJW9/?mdxt=d2RhcTcyOHhpZDFl",
+},
+*/
 {
     title:"GBM#7: Spooky Clay Halloween Social ",
     description:"A Halloween-themed social featuring clay modeling and a cozy screening of Coraline.",
