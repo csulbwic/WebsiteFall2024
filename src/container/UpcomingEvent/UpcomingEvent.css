@@ -30,7 +30,7 @@
    flyer slider (left) and recent event cards (right)
    ======================================== */
 .club__upcoming-left {
-    flex: 0.8;
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,7 +64,7 @@
 
 .upcoming-banner-scroll span {
     font-family: var(--font-base), sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     color: #fff;
     letter-spacing: 1px;
@@ -237,7 +237,7 @@
 
 /* ========================================
    JOIN WIC BUTTON
-   CTA button centered below the recent event cards
+   CTA button inside the recent events column
    Pink star decorations on either side (matches arrow color)
    ======================================== */
 .upcoming-join-wrapper {
@@ -245,7 +245,7 @@
     align-items: center;
     justify-content: center;
     gap: 0.6rem;
-    margin-top: 1rem;
+    margin-top: 0.6rem;
     width: 100%;
 }
 
@@ -255,7 +255,7 @@
 }
 
 .upcoming-join-btn {
-    background: var(--color-vivid-pink);
+    background: rgba(237, 156, 202, 0.9);
     color: #fff;
     font-family: var(--font-base), sans-serif;
     font-size: 14px;
@@ -277,8 +277,36 @@
 }
 
 /* ========================================
+   DECORATIVE ROW
+   Subtle mix of hearts, stars, flowers, and dots below the main content
+   ======================================== */
+.upcoming-deco-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: 0.8rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.upcoming-deco-row span {
+    font-size: 14px;
+    color: rgba(221, 4, 127, 0.5);
+    user-select: none;
+}
+
+.upcoming-deco-row span:nth-child(odd) {
+    font-size: 8px;
+}
+
+.upcoming-deco-row span:nth-child(3n) {
+    color: rgba(255, 182, 218, 0.4);
+}
+
+/* ========================================
    RECENT EVENTS COLUMN
-   3 most recent gallery events shown as compact white cards
+   Most recent gallery events shown as compact white cards
    with photo thumbnails on the left, title + date on the right
    ======================================== */
 .upcoming-recent-side {
@@ -357,7 +385,7 @@
    Gradient card with Marina Hacks info, logo, and links
    ======================================== */
 .club__upcoming-right {
-    flex: 1;
+    flex: 0.6;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -680,7 +708,8 @@
 /* ========================================
    RESPONSIVE BREAKPOINTS
    At 1024px: content stacks vertically, left-inner row stacks to column
-   At 450px: smaller text and logo sizes
+   At 768px: smaller flyer slider, tighter padding
+   At 450px: smaller text and logo sizes for phones
    ======================================== */
 @media screen and (max-width: 1024px) {
     .club__upcoming-content {
@@ -714,9 +743,130 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .club__upcoming-left {
+        padding: 1.2rem;
+        border-radius: 1.5rem;
+    }
+
+    .club__upcoming-right {
+        padding: 1.5rem 1rem;
+        border-radius: 1.5rem;
+    }
+
+    .upcoming-flyers-container {
+        width: 260px;
+    }
+
+    .upcoming-flyer-card {
+        min-width: 240px;
+        max-width: 240px;
+    }
+
+    .upcoming-end-card {
+        min-width: 240px;
+        max-width: 240px;
+        padding: 1rem;
+    }
+
+    .marina-hacks-logo {
+        width: 250px;
+    }
+
+    .marina-hacks-left-col {
+        max-width: 100%;
+    }
+
+    .marina-hacks-date {
+        font-size: 15px;
+    }
+
+    .marina-hacks-about {
+        padding: 1rem;
+    }
+
+    .marina-hacks-about-text,
+    .marina-hacks-schedule-text {
+        font-size: 13px;
+    }
+
+    .marina-hacks-subtitle {
+        font-size: 18px;
+    }
+}
+
 @media screen and (max-width: 450px) {
+    .club__upcoming-container {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+
+    .club__upcoming-left {
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .club__upcoming-right {
+        padding: 1.2rem 0.8rem;
+        border-radius: 1rem;
+    }
+
+    .upcoming-flyers-container {
+        width: 220px;
+    }
+
+    .upcoming-flyer-card {
+        min-width: 200px;
+        max-width: 200px;
+    }
+
+    .upcoming-end-card {
+        min-width: 200px;
+        max-width: 200px;
+        padding: 0.8rem;
+    }
+
+    .upcoming-end-text {
+        font-size: 13px;
+    }
+
+    .upcoming-gallery-btn {
+        font-size: 13px;
+        padding: 0.6rem 1.5rem;
+    }
+
+    .upcoming-banner-scroll span {
+        font-size: 13px;
+    }
+
     .marina-hacks-title {
         font-size: 22px;
+    }
+
+    .marina-hacks-logo {
+        width: 180px;
+    }
+
+    .marina-hacks-date {
+        font-size: 13px;
+    }
+
+    .marina-hacks-subtitle {
+        font-size: 16px;
+    }
+
+    .marina-hacks-about-text,
+    .marina-hacks-schedule-text {
+        font-size: 12px;
+    }
+
+    .marina-hacks-about {
+        padding: 0.8rem;
+    }
+
+    .marina-hacks-website-link {
+        font-size: 15px;
+        padding: 0.4rem 1rem;
     }
 
     .marina-hacks-mid-col {
@@ -724,7 +874,26 @@
         align-items: center;
     }
 
-    .marina-hacks-logo {
-        width: 150px;
+    .upcoming-recent-card-img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .upcoming-recent-name {
+        font-size: 12px;
+    }
+
+    .upcoming-recent-date {
+        font-size: 11px;
+    }
+
+    .upcoming-join-btn {
+        font-size: 12px;
+        padding: 0.6rem 2rem;
+    }
+
+    .upcoming-arrow-icon {
+        width: 35px;
+        height: 35px;
     }
 }

@@ -19,8 +19,8 @@ const UpcomingEvent = () => {
     const scrollRef = React.useRef(null);
     const [selectedFlyer, setSelectedFlyer] = useState(null);
 
-    // Grab the 3 most recent past events for the "Recent Events" cards
-    const recentEvents = eventData.Past_Event.slice(0, 3);
+    // Grab the 5 most recent past events for the "Recent Events" cards
+    const recentEvents = eventData.Past_Event.slice(0, 4);
 
     const scroll = (direction) => {
         const { current } = scrollRef;
@@ -46,7 +46,7 @@ const UpcomingEvent = () => {
 
     // Smooth-scroll to the Join Us section when "Join WiC" is clicked
     const scrollToJoin = () => {
-        const joinSection = document.getElementById('joinus');
+        const joinSection = document.getElementById('join');
         if (joinSection) {
             joinSection.scrollIntoView({ behavior: 'smooth' });
         }
@@ -101,7 +101,7 @@ const UpcomingEvent = () => {
                             </div>
                         </div>
 
-                        {/* RIGHT COLUMN: 3 most recent gallery events as compact cards */}
+                        {/* RIGHT COLUMN: 5 most recent gallery events as compact cards */}
                         <div className="upcoming-recent-side">
                             <p className="upcoming-recent-title">Recent Events</p>
                             {recentEvents.map((event, index) => (
@@ -113,23 +113,44 @@ const UpcomingEvent = () => {
                                     </div>
                                 </a>
                             ))}
+
+                            {/* Join WiC button — below the recent event cards */}
+                            <div className="upcoming-join-wrapper">
+                                <span className="upcoming-join-star">&#10022;</span>
+                                <a
+                                    href="#join"
+                                    className="upcoming-join-btn"
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        scrollToJoin();
+                                    }}
+                                >
+                                    Join WiC Today
+                                </a>
+                                <span className="upcoming-join-star">&#10022;</span>
+                            </div>
                         </div>
                     </div>
 
-                    {/* Join WiC button — centered below the entire flyer + recent events row */}
-                    <div className="upcoming-join-wrapper">
-                        <span className="upcoming-join-star">&#10022;</span>
-                        <a
-                            href="#joinus"
-                            className="upcoming-join-btn"
-                            onClick={(e) => {
-                                e.preventDefault();
-                                scrollToJoin();
-                            }}
-                        >
-                            Join WiC Today
-                        </a>
-                        <span className="upcoming-join-star">&#10022;</span>
+                    {/* Decorative filler */}
+                    <div className="upcoming-deco-row">
+                        <span>&#10022;</span>
+                        <span>&#9829;</span>
+                        <span>&#183;</span>
+                        <span>&#10043;</span>
+                        <span>&#183;</span>
+                        <span>&#9829;</span>
+                        <span>&#10022;</span>
+                        <span>&#183;</span>
+                        <span>&#10043;</span>
+                        <span>&#183;</span>
+                        <span>&#10022;</span>
+                        <span>&#9829;</span>
+                        <span>&#183;</span>
+                        <span>&#10043;</span>
+                        <span>&#183;</span>
+                        <span>&#9829;</span>
+                        <span>&#10022;</span>
                     </div>
                 </div>
 
