@@ -285,14 +285,14 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 0.6rem;
     min-width: 0;
 }
 
 /* "Recent Events" heading above the cards */
 .upcoming-recent-title {
     font-family: 'VT323', monospace, sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     color: var(--color-vivid-pink);
     text-align: center;
     font-weight: 600;
@@ -303,7 +303,7 @@
 .upcoming-recent-card {
     background: #fff;
     border-radius: 1rem;
-    padding: 0.9rem 1rem;
+    padding: 0.6rem 0.8rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -319,8 +319,8 @@
 
 /* Event photo thumbnail inside the card */
 .upcoming-recent-card-img {
-    width: 70px;
-    height: 70px;
+    width: 55px;
+    height: 55px;
     border-radius: 0.6rem;
     object-fit: cover;
     flex-shrink: 0;
@@ -337,7 +337,7 @@
 /* Event title — pink, bold */
 .upcoming-recent-name {
     font-family: var(--font-base), sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 700;
     color: var(--color-vivid-pink);
     margin: 0;
@@ -347,7 +347,7 @@
 /* Event date — lighter pink */
 .upcoming-recent-date {
     font-family: var(--font-base), sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     color: rgba(255, 57, 153, 0.6);
     margin: 0;
 }
