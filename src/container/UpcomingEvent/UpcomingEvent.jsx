@@ -4,13 +4,12 @@ import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 import { SubHeading } from '../../components';
 import images from "../../constants/logo_img";
 
-// Flyer slider section for upcoming events (Fall 2026 Events)
+// Flyer slider section for upcoming events (delete after event has passed and has been featured in gallery section)
 import ChipotleFundraiser from "../../assets/Event-Img/ChipotleFundraiserFall2026.png"; 
 
 // Assets for marina hacks 6.0 module below
 import MarinaHacksLogo from "../../assets/Event-Img/marina_hacks_original_colors_transparent.png";
 import MarinaHacksBG from "../../assets/Event-Img/MarinaHacks6.0BG.png";
-import MarinaHacksFlyer from "../../assets/Event-Img/Marinahacks6.0Flyer.png";
 import MarinaHacksSchedule from "../../assets/Event-Img/MarinaHacks6.0Schedule.png";
 
 const UpcomingEvent = () => {
@@ -28,8 +27,14 @@ const UpcomingEvent = () => {
 
     const flyers = [
         { img: ChipotleFundraiser, title: "Chipotle Fundraiser", date: "October ??, 2026" },
-        { img: MarinaHacksFlyer, title: "Marina Hacks 6.0", date: "October 24-25, 2026" },
     ];
+
+    const scrollToGallery = () => {
+        const gallerySection = document.getElementById('gallery');
+        if (gallerySection) {
+            gallerySection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
 
     return (
         <div className="club__upcoming-container section__padding box__container" id="upcoming">
@@ -52,6 +57,12 @@ const UpcomingEvent = () => {
                                 <div className="flyer-click-icon">🔍</div>
                             </div>
                         ))}
+                        <div className="upcoming-end-card">
+                            <p className="upcoming-end-text">See recent/past events here:</p>
+                            <button className="upcoming-gallery-btn" onClick={scrollToGallery}>
+                                Go to Gallery ↓
+                            </button>
+                        </div>
                     </div>
                     <div className="upcoming-arrows">
                         <BsArrowLeftShort className="upcoming-arrow-icon" cursor="pointer" onClick={() => scroll('left')} />
@@ -72,31 +83,23 @@ const UpcomingEvent = () => {
                                     <span className="bubble bubble-5"></span>
                                     <span className="bubble bubble-6"></span>
                                 </div>
-                                <p className="marina-hacks-date">October 24-25, 2026 | CSULB</p>
+                                <p className="marina-hacks-date"> Stay tuned! | October 2027 | CSULB</p>
+                            </div>
+
+                            <div className="marina-hacks-about">
+                                <h3 className="marina-hacks-subtitle">About</h3>
+                                <p className="marina-hacks-about-text">An annual beginner-friendly 24-hour hackathon where students collaborate to build innovative projects. All skill levels welcome!</p>
                             </div>
 
                             <div className="marina-hacks-mid-col">
-                                    <div style={{ background: 'rgba(255, 105, 180, 0.3)', borderRadius: '1rem', padding: '1.5rem', marginTop: '-2rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                                        <p style={{ color: '#fff', fontSize: '18px', textAlign: 'center', maxWidth: '350px', lineHeight: '1.5', fontFamily: "'VT323', monospace" }}>
-                                            Registration has closed. Thank you — we can't wait to see what projects you all build!
+                                    <div style={{ background: 'rgba(255, 105, 180, 0.3)', borderRadius: '1rem', padding: '1.5rem', marginTop: '0', display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
+                                        <p style={{ color: '#fff', fontSize: '18px', textAlign: 'center', lineHeight: '1.5', fontFamily: "'VT323', monospace" }}>
+                                            Marina Hacks 6.0 2026 Recap:
                                         </p>
                                         <a href="https://www.marinahacks.com/" target="_blank" rel="noreferrer" className="marina-hacks-website-link" >
                                             Visit marinahacks.com ➚
                                         </a>
                                     </div>
-                            </div>
-                        </div>
-
-                        <div className="marina-hacks-right-col">
-                            <div className="marina-hacks-about">
-                                <h3 className="marina-hacks-subtitle">About</h3>
-                                <p className="marina-hacks-about-text">A beginner-friendly 24-hour hackathon where students collaborate to build innovative projects. All skill levels welcome!</p>
-                            </div>
-
-                            <div className="marina-hacks-schedule-box" onClick={() => setSelectedFlyer(MarinaHacksSchedule)}>
-                                <h3 className="marina-hacks-subtitle">Schedule</h3>
-                                <img src={MarinaHacksSchedule} alt="Marina Hacks 6.0 Schedule" className="marina-hacks-schedule-img" />
-                                <div className="flyer-click-icon">🔍</div>
                             </div>
                         </div>
                     </div>
