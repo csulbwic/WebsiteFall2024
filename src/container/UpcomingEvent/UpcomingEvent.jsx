@@ -113,23 +113,23 @@ const UpcomingEvent = () => {
                                     </div>
                                 </a>
                             ))}
-
-                            {/* Join WiC button — centered below the recent event cards */}
-                            <div className="upcoming-join-wrapper">
-                                <span className="upcoming-join-star">&#10022;</span>
-                                <a
-                                    href="#joinus"
-                                    className="upcoming-join-btn"
-                                    onClick={(e) => {
-                                        e.preventDefault();
-                                        scrollToJoin();
-                                    }}
-                                >
-                                    Join WiC Today
-                                </a>
-                                <span className="upcoming-join-star">&#10022;</span>
-                            </div>
                         </div>
+                    </div>
+
+                    {/* Join WiC button — centered below the entire flyer + recent events row */}
+                    <div className="upcoming-join-wrapper">
+                        <span className="upcoming-join-star">&#10022;</span>
+                        <a
+                            href="#joinus"
+                            className="upcoming-join-btn"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                scrollToJoin();
+                            }}
+                        >
+                            Join WiC Today
+                        </a>
+                        <span className="upcoming-join-star">&#10022;</span>
                     </div>
                 </div>
 
