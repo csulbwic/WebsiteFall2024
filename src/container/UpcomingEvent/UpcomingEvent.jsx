@@ -6,7 +6,7 @@ import images from "../../constants/logo_img";
 import eventData from "../../constants/EventData";
 
 // Flyer slider section for upcoming events (delete after event has passed and has been featured in gallery section)
-import ChipotleFundraiser from "../../assets/Event-Img/ChipotleFundraiserFall2026.png"; 
+ 
 
 // Booth photo for the end card in the flyer slider
 import WOW_img from "../../assets/Event-Img/WOW_img.jpg";
@@ -33,7 +33,7 @@ const UpcomingEvent = () => {
 
     // Flyer data — add new flyers here, remove them once the event passes and is in the gallery
     const flyers = [
-        { img: ChipotleFundraiser, title: "Chipotle Fundraiser", date: "October ??, 2026" },
+         
     ];
 
     // Smooth-scroll to the gallery section when "Go to Gallery" is clicked
@@ -87,7 +87,7 @@ const UpcomingEvent = () => {
                                 {/* End card: booth photo + "Go to Gallery" button */}
                                 <div className="upcoming-end-card">
                                     <img src={WOW_img} alt="WiC Booth" className="upcoming-end-card-img" />
-                                    <p className="upcoming-end-text">See recent/past events here:</p>
+                                    <p className="upcoming-end-text">{flyers.length === 0 ? "No upcoming events — stay tuned!" : "See recent/past events here:"}</p>
                                     <button className="upcoming-gallery-btn" onClick={scrollToGallery}>
                                         Go to Gallery ↓
                                     </button>
