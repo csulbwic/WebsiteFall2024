@@ -22,7 +22,8 @@ import WOW25_img from "../assets/Event-Img/wow_2025.png";
 // SPRING 2026 EVENT IMAGES
 import SisterhoodSpring2026_img from "../assets/Event-Img/SisterhoodSpring2026.png";
 
-// FALL 2026 EVENT IMAGES
+// FALL 2026 EVENT IMAGES (from most to least recent)
+import MarinaHacks6Gallery_img from "../assets/Event-Img/MarinaHacks6.0Gallery.png";
 import SpookyClaySocialFall2026_img from "../assets/Event-Img/SpookyClaySocialFall2026.jpg";
 import AIinAutomotiveIndustry_img from "../assets/Event-Img/AIinAutomotiveIndustry.jpg";
 import PhishingTeardown2026Fall_img from "../assets/Event-Img/PhishingTDFall2026.jpg";
@@ -56,6 +57,7 @@ const eventImg = {
     PhishingTeardown2026Fall_img,
     AIinAutomotiveIndustry_img,
     SpookyClaySocialFall2026_img,
+    MarinaHacks6Gallery_img,
     //
 }
 

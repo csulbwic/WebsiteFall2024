@@ -19,7 +19,7 @@ const UpcomingEvent = () => {
     const scrollRef = React.useRef(null);
     const [selectedFlyer, setSelectedFlyer] = useState(null);
 
-    // Grab the 5 most recent past events for the "Recent Events" cards
+    // Grab the 4 most recent past events for the "Recent Events" cards
     const recentEvents = eventData.Past_Event.slice(0, 4);
 
     const scroll = (direction) => {
@@ -101,7 +101,7 @@ const UpcomingEvent = () => {
                             </div>
                         </div>
 
-                        {/* RIGHT COLUMN: 5 most recent gallery events as compact cards */}
+                        {/* RIGHT COLUMN: 4 most recent gallery events as compact cards */}
                         <div className="upcoming-recent-side">
                             <p className="upcoming-recent-title">Recent Events</p>
                             {recentEvents.map((event, index) => (
@@ -131,27 +131,6 @@ const UpcomingEvent = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* Decorative filler */}
-                    <div className="upcoming-deco-row">
-                        <span>&#10022;</span>
-                        <span>&#9829;</span>
-                        <span>&#183;</span>
-                        <span>&#10043;</span>
-                        <span>&#183;</span>
-                        <span>&#9829;</span>
-                        <span>&#10022;</span>
-                        <span>&#183;</span>
-                        <span>&#10043;</span>
-                        <span>&#183;</span>
-                        <span>&#10022;</span>
-                        <span>&#9829;</span>
-                        <span>&#183;</span>
-                        <span>&#10043;</span>
-                        <span>&#183;</span>
-                        <span>&#9829;</span>
-                        <span>&#10022;</span>
-                    </div>
                 </div>
 
                 {/* ===== RIGHT SIDE: Marina Hacks module ===== */}
@@ -168,23 +147,25 @@ const UpcomingEvent = () => {
                                     <span className="bubble bubble-5"></span>
                                     <span className="bubble bubble-6"></span>
                                 </div>
-                                <p className="marina-hacks-date"> Stay tuned! | October 2027 | CSULB</p>
+                                <p className="marina-hacks-date"> Next Hackathon: October 2027 | CSULB</p>
                             </div>
 
-                            <div className="marina-hacks-about">
-                                <h3 className="marina-hacks-subtitle">About</h3>
-                                <p className="marina-hacks-about-text">An annual beginner-friendly 24-hour hackathon where students collaborate to build innovative projects. All skill levels welcome!</p>
-                            </div>
+                            {/* About (left) and Recap (right) side by side */}
+                            <div className="marina-hacks-bottom-row">
+                                <div className="marina-hacks-about">
+                                    <h3 className="marina-hacks-subtitle">About</h3>
+                                    <p className="marina-hacks-about-text">An annual hackathon where students collaborate to build innovative projects. All skill levels welcome!</p>
+                                </div>
 
-                            <div className="marina-hacks-mid-col">
-                                    <div style={{ background: 'rgba(255, 105, 180, 0.3)', borderRadius: '1rem', padding: '1.5rem', marginTop: '0', display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
-                                        <p style={{ color: '#fff', fontSize: '18px', textAlign: 'center', lineHeight: '1.5', fontFamily: "'VT323', monospace" }}>
-                                            Marina Hacks 6.0 2026 Recap:
-                                        </p>
-                                        <a href="https://www.marinahacks.com/" target="_blank" rel="noreferrer" className="marina-hacks-website-link" >
-                                            Visit marinahacks.com ➚
-                                        </a>
-                                    </div>
+                                <div className="marina-hacks-recap">
+                                    <p className="marina-hacks-recap-title">Marina Hacks 6.0 2026 Recap:</p>
+                                    <a href="https://www.marinahacks.com/" target="_blank" rel="noreferrer" className="marina-hacks-website-link">
+                                        Website ➚
+                                    </a>
+                                    <a href="https://www.instagram.com/reels/De-Q5LyiJW9/" target="_blank" rel="noreferrer" className="marina-hacks-website-link">
+                                        Instagram ➚
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
