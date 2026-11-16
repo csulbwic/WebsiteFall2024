@@ -103,14 +103,13 @@
 
 /* Horizontal scroller that holds flyer cards */
 .upcoming-flyers-container {
-     display: flex;
+    display: flex;
     flex-direction: row;
     width: 320px;
     overflow-x: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
     gap: 1.5rem;
-    justify-content: center;
     scroll-behavior: smooth;
     border: 2px solid rgba(237, 156, 202, 0.3);
     border-radius: 1rem;
@@ -126,11 +125,13 @@
 .upcoming-flyer-card {
     min-width: 300px;
     max-width: 300px;
+    max-height: 400px;
     border-radius: 1rem;
     overflow: hidden;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.35);
     cursor: pointer;
     position: relative;
+    flex-shrink: 0;
 }
 
 .upcoming-flyer-card img {
@@ -180,6 +181,7 @@
     justify-content: center;
     gap: 0.8rem;
     padding: 1.5rem;
+    flex-shrink: 0;
 }
 
 /* Booth photo on the end card */

@@ -6,7 +6,7 @@ import images from "../../constants/logo_img";
 import eventData from "../../constants/EventData";
 
 // Flyer slider section for upcoming events (delete after event has passed and has been featured in gallery section)
- 
+import ThanksgivingSocialFlyer from "../../assets/Event-Img/ThanksgivingSocialFall2026.png";
 
 // Booth photo for the end card in the flyer slider
 import WOW_img from "../../assets/Event-Img/WOW_img.jpg";
@@ -33,7 +33,7 @@ const UpcomingEvent = () => {
 
     // Flyer data — add new flyers here, remove them once the event passes and is in the gallery
     const flyers = [
-         
+         { img: ThanksgivingSocialFlyer, title: "Thanksgiving Social" },
     ];
 
     // Smooth-scroll to the gallery section when "Go to Gallery" is clicked
